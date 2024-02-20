@@ -1,0 +1,8 @@
+---
+title: "About"
+about:
+  template: jolla
+
+---
+
+This website is a catalog of geospatial public health-related data put together by the Children's Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi ([rzomor2@uic.edu](mailto:rzomor2@uic.edu))

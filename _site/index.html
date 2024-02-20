@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Catalog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Catalog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./updates.html"> 
+<span class="menu-text">Updates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#cities" id="toc-cities" class="nav-link active" data-scroll-target="#cities">500 Cities</a></li>
+  <li><a href="#american-community-survey-acs-5-year-estimates" id="toc-american-community-survey-acs-5-year-estimates" class="nav-link" data-scroll-target="#american-community-survey-acs-5-year-estimates">American Community Survey (ACS) 5-year Estimates</a></li>
+  <li><a href="#cms-approved-facilities---fqhc-rhc-cah" id="toc-cms-approved-facilities---fqhc-rhc-cah" class="nav-link" data-scroll-target="#cms-approved-facilities---fqhc-rhc-cah">CMS Approved Facilities - FQHC, RHC, CAH</a></li>
+  <li><a href="#federally-qualified-health-center-service-delivery-and-look-alike-sites" id="toc-federally-qualified-health-center-service-delivery-and-look-alike-sites" class="nav-link" data-scroll-target="#federally-qualified-health-center-service-delivery-and-look-alike-sites">Federally Qualified Health Center Service Delivery and Look-Alike Sites</a></li>
+  <li><a href="#healthcare-facilities-of-the-indian-health-service-ihs" id="toc-healthcare-facilities-of-the-indian-health-service-ihs" class="nav-link" data-scroll-target="#healthcare-facilities-of-the-indian-health-service-ihs">Healthcare Facilities of the Indian Health Service (IHS)</a></li>
+  <li><a href="#multidimensional-deprivation-index-mdi" id="toc-multidimensional-deprivation-index-mdi" class="nav-link" data-scroll-target="#multidimensional-deprivation-index-mdi">Multidimensional Deprivation Index (MDI)</a></li>
+  <li><a href="#population-level-analysis-and-community-estimates-places" id="toc-population-level-analysis-and-community-estimates-places" class="nav-link" data-scroll-target="#population-level-analysis-and-community-estimates-places">Population Level Analysis and Community Estimates (PLACES)</a></li>
+  <li><a href="#rural-urban-commuting-area-ruca" id="toc-rural-urban-commuting-area-ruca" class="nav-link" data-scroll-target="#rural-urban-commuting-area-ruca">Rural-Urban Commuting Area (RUCA)</a></li>
+  <li><a href="#shortage-areas-hpsas-and-muaps" id="toc-shortage-areas-hpsas-and-muaps" class="nav-link" data-scroll-target="#shortage-areas-hpsas-and-muaps">Shortage Areas (HPSAs and MUA/Ps)</a></li>
+  <li><a href="#social-vulnerability-index-svi" id="toc-social-vulnerability-index-svi" class="nav-link" data-scroll-target="#social-vulnerability-index-svi">Social Vulnerability Index (SVI)</a></li>
+  <li><a href="#tribal-census-tract-boundaries" id="toc-tribal-census-tract-boundaries" class="nav-link" data-scroll-target="#tribal-census-tract-boundaries">Tribal Census Tract Boundaries</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF (PrettyPDF)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Catalog</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 19, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<div style="page-break-after: always;"></div>
+<section id="cities" class="level2">
+<h2 class="anchored" data-anchor-id="cities">500 Cities</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The <a href="https://www.cdc.gov/places/about/500-cities-2016-2019/index.html">500 Cities Project</a> provided model derived estimates for chronic disease risk factors, health outcomes, and clinical preventive services use for the 500 largest US cities.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Year; 2016 to 2019</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>City and Census Tract</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Tables and Shapefiles</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Centers for Disease Control and Prevention (CDC)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://data.cdc.gov/browse?q=GIS%20friendly&amp;sortBy=relevance">All Years</a> (Look for datasets labeled GIS Friendly Format)</td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td><a href="https://cdcarcgis.maps.arcgis.com/home/item.html?id=ea8b721cf9034814bce067ddefd21ecc">2016</a> <a href="https://cdcarcgis.maps.arcgis.com/home/item.html?id=2064702cb1fe47e5868333f56d4c99d0">2017</a> <a href="https://cdcarcgis.maps.arcgis.com/home/item.html?id=04bd589e13c242d98de43e78f90d0d3f">2018</a> <a href="https://cdcarcgis.maps.arcgis.com/home/item.html?id=7f48652a35424b97b2bc2542c4ef26ae">2019</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+This project reported city- and census tract-level data and used small area estimation methods to obtain 27 chronic disease measures for the 500 largest American cities. Dataset includes estimates for 27 measures (<a href="https://www.cdc.gov/places/measure-definitions/index.html">definitions here</a>):</p>
+<ul>
+<li>Chronic disease-related unhealthy behaviors (5),</li>
+<li>Health outcomes (13), and</li>
+<li>Use of preventive services (9).</li>
+</ul>
+<p>These estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="american-community-survey-acs-5-year-estimates" class="level2">
+<h2 class="anchored" data-anchor-id="american-community-survey-acs-5-year-estimates">American Community Survey (ACS) 5-year Estimates</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>“The <a href="https://www.census.gov/programs-surveys/acs/about.html">American Community Survey</a> (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>5 Years; 2009 to 2022</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Nation, States (including DC and Puerto Rico), Metropolitan Areas, Congressional Districts, Counties, Places, Census Tracts and Block Groups</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Feature Layers</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>US Census Bureau</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://data.census.gov/">All Years</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td><a href="https://www.arcgis.com/home/group.html?id=16b3a5ac36834ed6b3f16261d9a988ea#overview">Current</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+The Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both <a href="https://storymaps.arcgis.com/stories/41743d0d5364488fb51d795d65b40b37">boundaries and centroids</a>. Topics may contain single or multiple ACS tables Layers can be <a href="https://www.arcgis.com/apps/Cascade/index.html?appid=c6a35a434a8f4913b9c35022290efdd0">accessed and used</a> within your GIS workflows, for example, <a href="https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/make-an-acs-map-fast/">make a map about your community</a>.</p>
+<p>If you are looking for historical data, the census.gov website can be difficult to go through. <a href="https://censusreporter.org/">Census Reporter</a> can make it easier to find and download tables at various spatial scales.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="cms-approved-facilities---fqhc-rhc-cah" class="level2">
+<h2 class="anchored" data-anchor-id="cms-approved-facilities---fqhc-rhc-cah">CMS Approved Facilities - FQHC, RHC, CAH</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>This service provides information on Center of Medicare &amp; Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Updated on Unknown Basis; Current</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Point</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Feature Service</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Health Resources &amp; Services Administration (HRSA)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://gisportal.hrsa.gov/server/rest/services/HealthCareFacilities/CMSApprovedFacilities_FS/FeatureServer">Current</a> (<a href="https://data.hrsa.gov/maps/services">Additional Information</a>)</td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+This is the “<a href="https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities/data">Provider of Service</a>” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare &amp; Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).</p>
+<p>Add to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="federally-qualified-health-center-service-delivery-and-look-alike-sites" class="level2">
+<h2 class="anchored" data-anchor-id="federally-qualified-health-center-service-delivery-and-look-alike-sites">Federally Qualified Health Center Service Delivery and Look-Alike Sites</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>List of federally-funded health centers that provide health services.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Updated on Unknown Basis; Current</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Point</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>CSV with Address and X/Y</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Health Resources &amp; Services Administration (HRSA)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://data.hrsa.gov/data/download">Current</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+Health centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="healthcare-facilities-of-the-indian-health-service-ihs" class="level2">
+<h2 class="anchored" data-anchor-id="healthcare-facilities-of-the-indian-health-service-ihs">Healthcare Facilities of the Indian Health Service (IHS)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>Point-level representation of the locations of IHS Facilities in the United States</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Updated on Unknown Basis; Current</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Point</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Feature Service</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Indian Health Service (IHS)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://www.ihs.gov/locations/">Current</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td><a href="https://www.arcgis.com/home/item.html?id=f54bca11a622446c9472e962fdaf2bea">Current</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+The IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="multidimensional-deprivation-index-mdi" class="level2">
+<h2 class="anchored" data-anchor-id="multidimensional-deprivation-index-mdi">Multidimensional Deprivation Index (MDI)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>Measure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Mixed; 2010 to 2019; 2017</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>County and State</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Shapefile</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>US Census Bureau</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://www.census.gov/topics/income-poverty/poverty/about/related-sites/rates.html">2010 to 2019</a> <a href="https://www.census.gov/library/publications/2019/acs/acs-40.html">2017</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+MDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:</p>
+<ul>
+<li>Neighborhood Quality</li>
+<li>Standard of Living</li>
+<li>Education</li>
+<li>Health</li>
+<li>Economic Security</li>
+<li>Housing Quality</li>
+</ul>
+<p>Cannot map by individual dimension.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="population-level-analysis-and-community-estimates-places" class="level2">
+<h2 class="anchored" data-anchor-id="population-level-analysis-and-community-estimates-places">Population Level Analysis and Community Estimates (PLACES)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Year; 2019 to 2023</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Counties, Places, ZCTAs, and Census Tracts</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Tables and Shapefiles</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Centers for Disease Control and Prevention (CDC)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://data.cdc.gov/browse?category=500+Cities+%26+Places">All Years</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td><a href="https://www.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7">Current</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+This project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.</p>
+<p>Dataset includes estimates for 29 measures (definitions here):</p>
+<ul>
+<li>Chronic Disease Related Health Outcomes (13)</li>
+<li>Prevention Measures (9)</li>
+<li>Health Risk Behaviors (4)</li>
+<li>Disability (7)</li>
+<li>Health Status (3)</li>
+</ul>
+<p>These estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="rural-urban-commuting-area-ruca" class="level2">
+<h2 class="anchored" data-anchor-id="rural-urban-commuting-area-ruca">Rural-Urban Commuting Area (RUCA)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Mixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>County level representation of counties that are defined as PRCDAs/CHSDA</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>CSV with GEOIDs</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>US Department of Agriculture Economic Research Service</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/">All Years</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+The classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="shortage-areas-hpsas-and-muaps" class="level2">
+<h2 class="anchored" data-anchor-id="shortage-areas-hpsas-and-muaps">Shortage Areas (HPSAs and MUA/Ps)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>Facility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps).</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Updated on Unknown Basis; Current</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Mixed (Point, Tract, County Subdivision, County)</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Shapefile and Feature Service</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Health Resources &amp; Services Administration</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://data.hrsa.gov/data/download#heading12">Current</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+HRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="social-vulnerability-index-svi" class="level2">
+<h2 class="anchored" data-anchor-id="social-vulnerability-index-svi">Social Vulnerability Index (SVI)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html">Social Vulnerability Index</a> uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Year; 2000, 2010, 2014, 2016, 2018, 2020</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>County and Census Tract</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>CSV and Shapefile</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Centers for Disease Control and Prevention (CDC)</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html">All Years</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td><a href="https://www.arcgis.com/home/item.html?id=cbd68d9887574a10bc89ea4efe2b8087">2018</a> <a href="https://www.arcgis.com/home/item.html?id=05709059044243ae9b42f469f0e06642">2020</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+Ranking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:</p>
+<ul>
+<li>Housing Type and Transportation</li>
+<li>Household Composition and Disability</li>
+<li>Socioeconomic Status</li>
+<li>Minority Status and Language</li>
+</ul>
+<p>Can also map by individual dimension.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="tribal-census-tract-boundaries" class="level2">
+<h2 class="anchored" data-anchor-id="tribal-census-tract-boundaries">Tribal Census Tract Boundaries</h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>Polygons representing individual tribal census tracts throughout the United States</td>
+</tr>
+<tr class="even">
+<td><strong>Years</strong></td>
+<td>Year; 2007 to 2023</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Tribal Tract</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Shapefile</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>US Census Bureau</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php">All Years</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details:</strong><br>
+Tribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.</p>
+<p>If you would like attributes associated with these Tribal Census Tract Boundaries, you can visit <a href="https://data2.nhgis.org/main." class="uri">https://data2.nhgis.org/main.</a> Select <strong>Geographic levels -&gt; Native American/Alaskan/Hawaiian -&gt; Tribal Census Tracts</strong>. You can then select years, topics, and datasets to filter ACS Tables</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
