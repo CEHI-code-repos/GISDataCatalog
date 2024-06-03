@@ -74,28 +74,34 @@ Offers Heart Disease and Stroke mortality data obtained from the National Vital 
 
 {{< pagebreak >}}
 
-## Federally Qualified Health Center Service Delivery and Look-Alike Sites
+## Mapping Medicare Disparities
 
-+-------------------------+-----------------------------------------------------------------------+
-| **Description**         | List of federally-funded health centers that provide health services. |
-+-------------------------+-----------------------------------------------------------------------+
-| **Time Frame**          | Updated on Unknown Basis; Current                                     |
-+-------------------------+-----------------------------------------------------------------------+
-| **Spatial Scale**       | Point                                                                 |
-+-------------------------+-----------------------------------------------------------------------+
-| **Format**              | CSV with Address and X/Y                                              |
-+-------------------------+-----------------------------------------------------------------------+
-| **Source**              | Health Resources & Services Administration (HRSA)                     |
-+-------------------------+-----------------------------------------------------------------------+
-| **Original Repository** | [Current](https://data.hrsa.gov/data/download)                        |
-+-------------------------+-----------------------------------------------------------------------+
-| **Living Atlas**        | N/A                                                                   |
-+-------------------------+-----------------------------------------------------------------------+
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Description**         | Health outcomes measures to map Medicare disparities                                           |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Time Frame**          | Updated on Unknown Basis; Current                                                              |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Spatial Scale**       | State/Territory, County, Tract (depending on measure)                                          |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Format**              | CSV                                                                                            |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Source**              | Center of Medicare & Medicaid Services                                                         |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Original Repository** | [Current](https://data.cms.gov/tools/mapping-medicare-disparities-by-population) (date listed) |
++-------------------------+------------------------------------------------------------------------------------------------+
+| **Living Atlas**        | N/A                                                                                            |
++-------------------------+------------------------------------------------------------------------------------------------+
 
 : {tbl-colwidths="\[20,80\]"}
 
 **Details**\
-Health centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing.
+Composed of multiple tools which display disparities through three views:
+
+-   Population - "The MMD interactive tool contains health outcome measures for disease prevalence, costs, hospitalization for 60 specific chronic conditions, emergency department utilization, readmissions rates, mortality, preventable hospitalizations, and preventive services."
+
+-   Hospital - "The MMD interactive map hospital tool identifies area of disparities between hospital quality and cost of care. It allows for a way to compare measures at the hospital, county, state, territory, and national levels"
+
+-   Social Determinants of Health - "This addition to the MMD tool identifies areas of disparities by key Social Determinant of Health (SDOH) domains and measures"
 
 {{< pagebreak >}}
 
