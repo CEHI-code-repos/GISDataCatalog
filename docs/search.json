@@ -91,6 +91,41 @@
     "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
   },
   {
+    "objectID": "fiveFavoriteDatasets.html#cms-approved-facilities---fqhc-rhc-cah",
+    "href": "fiveFavoriteDatasets.html#cms-approved-facilities---fqhc-rhc-cah",
+    "title": "Five Favorite Datasets",
+    "section": "CMS Approved Facilities - FQHC, RHC, CAH",
+    "text": "CMS Approved Facilities - FQHC, RHC, CAH\n\n\n\n\n\n\n\nDescription\nThis service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent (Additional Information)\n\n\nLiving Atlas\nHosptials\n\n\n\nDetails\nThis is the “Provider of Service” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare & Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).\nAdd to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class."
+  },
+  {
+    "objectID": "fiveFavoriteDatasets.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
+    "href": "fiveFavoriteDatasets.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
+    "title": "Five Favorite Datasets",
+    "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nHeart Disease Mortality - 2014-2016 2017-2019 2018-2020\nStroke Mortality - 2014-2016 2016-2018 2017-2019 2018-2020\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+  },
+  {
+    "objectID": "fiveFavoriteDatasets.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
+    "href": "fiveFavoriteDatasets.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
+    "title": "Five Favorite Datasets",
+    "section": "Federally Qualified Health Center Service Delivery and Look-Alike Sites",
+    "text": "Federally Qualified Health Center Service Delivery and Look-Alike Sites\n\n\n\n\n\n\n\nDescription\nList of federally-funded health centers that provide health services.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nCSV with Address and X/Y\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHealth centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing."
+  },
+  {
+    "objectID": "fiveFavoriteDatasets.html#population-level-analysis-and-community-estimates-places",
+    "href": "fiveFavoriteDatasets.html#population-level-analysis-and-community-estimates-places",
+    "title": "Five Favorite Datasets",
+    "section": "Population Level Analysis and Community Estimates (PLACES)",
+    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2023\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
+  },
+  {
+    "objectID": "fiveFavoriteDatasets.html#social-vulnerability-index-svi",
+    "href": "fiveFavoriteDatasets.html#social-vulnerability-index-svi",
+    "title": "Five Favorite Datasets",
+    "section": "Social Vulnerability Index (SVI)",
+    "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome to the Data Catalog",

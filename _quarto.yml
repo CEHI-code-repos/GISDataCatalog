@@ -6,6 +6,8 @@ website:
   title: "Data Catalog"
   navbar:
     right:
+      - text: Favorites
+        href: fiveFavoriteDatasets.qmd
       - updates.qmd
       - about.qmd
   search: false

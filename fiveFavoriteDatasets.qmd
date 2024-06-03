@@ -1,0 +1,165 @@
+---
+title: "Five Favorite Datasets"
+date-modified: last-modified
+format: 
+    html:
+        toc: true
+---
+
+{{< pagebreak >}}
+
+## CMS Approved Facilities - FQHC, RHC, CAH
+
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Description**         | This service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities. |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                                                                                                 |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Spatial Scale**       | Point                                                                                                                                                                                                                             |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Format**              | Feature Service                                                                                                                                                                                                                   |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Source**              | Health Resources & Services Administration (HRSA)                                                                                                                                                                                 |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Original Repository** | [Current](https://gisportal.hrsa.gov/server/rest/services/HealthCareFacilities/CMSApprovedFacilities_FS/FeatureServer) ([Additional Information](https://data.hrsa.gov/maps/services))                                            |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Living Atlas**        | [Hosptials](https://www.arcgis.com/home/item.html?id=4ae399a6db4944998812765397e72c5e)                                                                                                                                            |
++-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+This is the “[Provider of Service](https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities/data)” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare & Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).
+
+Add to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class.
+
+{{< pagebreak >}}
+
+## Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality
+
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Description**         | Heart Disease and Stoke Mortality                                                                                                                                                                                                                                                                                                                                              |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Frame**          | Three year average from 2005-2007 to 2019-2021                                                                                                                                                                                                                                                                                                                                 |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Spatial Scale**       | States, Counties                                                                                                                                                                                                                                                                                                                                                               |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Format**              | Tables                                                                                                                                                                                                                                                                                                                                                                         |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Source**              | Centers for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention                                                                                                                                                                                                                                                                              |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Original Repository** | [Interactive Data Atlas](https://nccd.cdc.gov/DHDSPAtlas/Default.aspx)                                                                                                                                                                                                                                                                                                         |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Living Atlas**        | Heart Disease Mortality - [2014-2016](https://www.arcgis.com/home/item.html?id=d8b5477dad474e2d85cae6b8c069003e) [2017-2019](https://www.arcgis.com/home/item.html?id=ad21224485f049ee85808504c406c9ed) [2018-2020](https://www.arcgis.com/home/item.html?id=3d67302da1cf4b0d820b613c7949e958)                                                                                 |
+|                         |                                                                                                                                                                                                                                                                                                                                                                                |
+|                         | Stroke Mortality - [2014-2016](https://www.arcgis.com/home/item.html?id=21501f65faf84279afb41f040e82b4af) [2016-2018](https://www.arcgis.com/home/item.html?id=713d4cd763e24507b2b7688b96ab9416) [2017-2019](https://www.arcgis.com/home/item.html?id=417107aaaf7b471d918db5b2bafe9c9e) [2018-2020](https://www.arcgis.com/home/item.html?id=60a486432fcc4b70bcc5b9adf6155242) |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+Offers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding...
+
+-   Prevalence
+
+-   Risk Factors
+
+-   Social, Economic, Environmental variables
+
+-   Demographics
+
+-   Health Care Delivery and Insurance
+
+-   Health Care Costs
+
+{{< pagebreak >}}
+
+## Federally Qualified Health Center Service Delivery and Look-Alike Sites
+
++-------------------------+-----------------------------------------------------------------------+
+| **Description**         | List of federally-funded health centers that provide health services. |
++-------------------------+-----------------------------------------------------------------------+
+| **Time Frame**          | Updated on Unknown Basis; Current                                     |
++-------------------------+-----------------------------------------------------------------------+
+| **Spatial Scale**       | Point                                                                 |
++-------------------------+-----------------------------------------------------------------------+
+| **Format**              | CSV with Address and X/Y                                              |
++-------------------------+-----------------------------------------------------------------------+
+| **Source**              | Health Resources & Services Administration (HRSA)                     |
++-------------------------+-----------------------------------------------------------------------+
+| **Original Repository** | [Current](https://data.hrsa.gov/data/download)                        |
++-------------------------+-----------------------------------------------------------------------+
+| **Living Atlas**        | N/A                                                                   |
++-------------------------+-----------------------------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+Health centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing.
+
+{{< pagebreak >}}
+
+## Population Level Analysis and Community Estimates (PLACES)
+
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Description**         | The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Frame**          | Year; 2019 to 2023                                                                                                                                                        |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Spatial Scale**       | Counties, Places, ZCTAs, and Census Tracts                                                                                                                                |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Format**              | Tables and Shapefiles                                                                                                                                                     |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                          |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Original Repository** | [All Years](https://data.cdc.gov/browse?category=500+Cities+%26+Places)                                                                                                   |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Living Atlas**        | [Current](https://www.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7)                                                                                      |
++-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+This project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.
+
+Dataset includes estimates for 29 measures (definitions here):
+
+-   Chronic Disease Related Health Outcomes (13)
+-   Prevention Measures (9)
+-   Health Risk Behaviors (4)
+-   Disability (7)
+-   Health Status (3)
+
+These estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations.
+
+{{< pagebreak >}}
+
+## Social Vulnerability Index (SVI)
+
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Description**         | The [Social Vulnerability Index](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters. |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Frame**          | Year; 2000, 2010, 2014, 2016, 2018, 2020                                                                                                                                                                                       |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Spatial Scale**       | County and Census Tract                                                                                                                                                                                                        |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Format**              | CSV and Shapefile                                                                                                                                                                                                              |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                                                                               |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Original Repository** | [All Years](https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html)                                                                                                                                     |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Living Atlas**        | [2018](https://www.arcgis.com/home/item.html?id=cbd68d9887574a10bc89ea4efe2b8087) [2020](https://www.arcgis.com/home/item.html?id=05709059044243ae9b42f469f0e06642)                                                            |
++-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+Ranking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:
+
+-   Housing Type and Transportation
+-   Household Composition and Disability
+-   Socioeconomic Status
+-   Minority Status and Language
+
+Can also map by individual dimension.
