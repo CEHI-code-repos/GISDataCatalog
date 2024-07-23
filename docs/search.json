@@ -4,91 +4,14 @@
     "href": "updates.html",
     "title": "Updates",
     "section": "",
-    "text": "Welcome to the Data Catalog\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\n\nNo matching items"
+    "text": "New Datasets Added\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#cities",
-    "href": "index.html#cities",
-    "title": "Data Catalog",
-    "section": "500 Cities",
-    "text": "500 Cities\n\n\n\n\n\n\n\nDescription\nThe 500 Cities Project provided model derived estimates for chronic disease risk factors, health outcomes, and clinical preventive services use for the 500 largest US cities.\n\n\nTime Frame\nYear; 2016 to 2019\n\n\nSpatial Scale\nCity and Census Tract\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years (Look for datasets labeled GIS Friendly Format)\n\n\nLiving Atlas\n2016 2017 2018 2019\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 27 chronic disease measures for the 500 largest American cities. Dataset includes estimates for 27 measures (definitions here):\n\nChronic disease-related unhealthy behaviors (5),\nHealth outcomes (13), and\nUse of preventive services (9).\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
-  },
-  {
-    "objectID": "index.html#american-community-survey-acs-5-year-estimates",
-    "href": "index.html#american-community-survey-acs-5-year-estimates",
-    "title": "Data Catalog",
-    "section": "American Community Survey (ACS) 5-year Estimates",
-    "text": "American Community Survey (ACS) 5-year Estimates\n\n\n\n\n\n\n\nDescription\n“The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)\n\n\nTime Frame\n5 Years; 2009 to 2022\n\n\nSpatial Scale\nNation, States (including DC and Puerto Rico), Metropolitan Areas, Congressional Districts, Counties, Places, Census Tracts and Block Groups\n\n\nFormat\nFeature Layers\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both boundaries and centroids. Topics may contain single or multiple ACS tables Layers can be accessed and used within your GIS workflows, for example, make a map about your community.\nIf you are looking for historical data, the census.gov website can be difficult to go through. Census Reporter can make it easier to find and download tables at various spatial scales."
-  },
-  {
-    "objectID": "index.html#cms-approved-facilities---fqhc-rhc-cah",
-    "href": "index.html#cms-approved-facilities---fqhc-rhc-cah",
-    "title": "Data Catalog",
-    "section": "CMS Approved Facilities - FQHC, RHC, CAH",
-    "text": "CMS Approved Facilities - FQHC, RHC, CAH\n\n\n\n\n\n\n\nDescription\nThis service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent (Additional Information)\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThis is the “Provider of Service” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare & Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).\nAdd to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class."
-  },
-  {
-    "objectID": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
-    "href": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
-    "title": "Data Catalog",
-    "section": "Federally Qualified Health Center Service Delivery and Look-Alike Sites",
-    "text": "Federally Qualified Health Center Service Delivery and Look-Alike Sites\n\n\n\n\n\n\n\nDescription\nList of federally-funded health centers that provide health services.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nCSV with Address and X/Y\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHealth centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing."
-  },
-  {
-    "objectID": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
-    "href": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
-    "title": "Data Catalog",
-    "section": "Healthcare Facilities of the Indian Health Service (IHS)",
-    "text": "Healthcare Facilities of the Indian Health Service (IHS)\n\n\n\n\n\n\n\nDescription\nPoint-level representation of the locations of IHS Facilities in the United States\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nIndian Health Service (IHS)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S."
-  },
-  {
-    "objectID": "index.html#multidimensional-deprivation-index-mdi",
-    "href": "index.html#multidimensional-deprivation-index-mdi",
-    "title": "Data Catalog",
-    "section": "Multidimensional Deprivation Index (MDI)",
-    "text": "Multidimensional Deprivation Index (MDI)\n\n\n\n\n\n\n\nDescription\nMeasure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey\n\n\nTime Frame\nMixed; 2010 to 2019; 2017\n\n\nSpatial Scale\nCounty and State\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\n2010 to 2019 2017\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nMDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:\n\nNeighborhood Quality\nStandard of Living\nEducation\nHealth\nEconomic Security\nHousing Quality\n\nCannot map by individual dimension."
-  },
-  {
-    "objectID": "index.html#population-level-analysis-and-community-estimates-places",
-    "href": "index.html#population-level-analysis-and-community-estimates-places",
-    "title": "Data Catalog",
-    "section": "Population Level Analysis and Community Estimates (PLACES)",
-    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2023\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
-  },
-  {
-    "objectID": "index.html#rural-urban-commuting-area-ruca",
-    "href": "index.html#rural-urban-commuting-area-ruca",
-    "title": "Data Catalog",
-    "section": "Rural-Urban Commuting Area (RUCA)",
-    "text": "Rural-Urban Commuting Area (RUCA)\n\n\n\n\n\n\n\nDescription\nThe rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level\n\n\nTime Frame\nMixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS\n\n\nSpatial Scale\nCounty level representation of counties that are defined as PRCDAs/CHSDA\n\n\nFormat\nCSV with GEOIDs\n\n\nSource\nUS Department of Agriculture Economic Research Service\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences."
-  },
-  {
-    "objectID": "index.html#shortage-areas-hpsas-and-muaps",
-    "href": "index.html#shortage-areas-hpsas-and-muaps",
-    "title": "Data Catalog",
-    "section": "Shortage Areas (HPSAs and MUA/Ps)",
-    "text": "Shortage Areas (HPSAs and MUA/Ps)\n\n\n\n\n\n\n\nDescription\nFacility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps).\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nMixed (Point, Tract, County Subdivision, County)\n\n\nFormat\nShapefile and Feature Service\n\n\nSource\nHealth Resources & Services Administration\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities."
-  },
-  {
-    "objectID": "index.html#social-vulnerability-index-svi",
-    "href": "index.html#social-vulnerability-index-svi",
-    "title": "Data Catalog",
-    "section": "Social Vulnerability Index (SVI)",
-    "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
-  },
-  {
-    "objectID": "index.html#tribal-census-tract-boundaries",
-    "href": "index.html#tribal-census-tract-boundaries",
-    "title": "Data Catalog",
-    "section": "Tribal Census Tract Boundaries",
-    "text": "Tribal Census Tract Boundaries\n\n\n\n\n\n\n\nDescription\nPolygons representing individual tribal census tracts throughout the United States\n\n\nYears\nYear; 2007 to 2023\n\n\nSpatial Scale\nTribal Tract\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails:\nTribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.\nIf you would like attributes associated with these Tribal Census Tract Boundaries, you can visit https://data2.nhgis.org/main. Select Geographic levels -&gt; Native American/Alaskan/Hawaiian -&gt; Tribal Census Tracts. You can then select years, topics, and datasets to filter ACS Tables"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/additional_datasets/additional_datasets.html",
+    "href": "posts/additional_datasets/additional_datasets.html",
+    "title": "New Datasets Added",
     "section": "",
-    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
+    "text": "Welcome to the data catalog! We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:\n\nEnvironmental Justice Index (EJI)\nCounty Health Rankings & Roadmaps\nSmall Area Health Insurance Estimates (SAHIE) Program\nSmall Area Income and Poverty Estimates (SAIPE) Program\nMethodology & Data - Climate & Economic Justice Screening Tool\n\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
     "objectID": "fiveFavoriteDatasets.html#cms-approved-facilities---fqhc-rhc-cah",
@@ -124,6 +47,139 @@
     "title": "Five Favorite Datasets",
     "section": "Social Vulnerability Index (SVI)",
     "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
+  },
+  {
+    "objectID": "index.html#cities",
+    "href": "index.html#cities",
+    "title": "Data Catalog",
+    "section": "500 Cities",
+    "text": "500 Cities\n\n\n\n\n\n\n\nDescription\nThe 500 Cities Project provided model derived estimates for chronic disease risk factors, health outcomes, and clinical preventive services use for the 500 largest US cities.\n\n\nTime Frame\nYear; 2016 to 2019\n\n\nSpatial Scale\nCity and Census Tract\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years (Look for datasets labeled GIS Friendly Format)\n\n\nLiving Atlas\n2016 2017 2018 2019\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 27 chronic disease measures for the 500 largest American cities. Dataset includes estimates for 27 measures (definitions here):\n\nChronic disease-related unhealthy behaviors (5),\nHealth outcomes (13), and\nUse of preventive services (9).\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
+  },
+  {
+    "objectID": "index.html#american-community-survey-acs-5-year-estimates",
+    "href": "index.html#american-community-survey-acs-5-year-estimates",
+    "title": "Data Catalog",
+    "section": "American Community Survey (ACS) 5-year Estimates",
+    "text": "American Community Survey (ACS) 5-year Estimates\n\n\n\n\n\n\n\nDescription\n“The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)\n\n\nTime Frame\n5 Years; 2009 to 2022\n\n\nSpatial Scale\nNation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group\n\n\nFormat\nFeature Layers\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both boundaries and centroids. Topics may contain single or multiple ACS tables Layers can be accessed and used within your GIS workflows, for example, make a map about your community.\nIf you are looking for historical data, the census.gov website can be difficult to go through. Census Reporter can make it easier to find and download tables at various spatial scales."
+  },
+  {
+    "objectID": "index.html#climate-economic-justice-screening-tool-cejst",
+    "href": "index.html#climate-economic-justice-screening-tool-cejst",
+    "title": "Data Catalog",
+    "section": "Climate & Economic Justice Screening Tool (CEJST)",
+    "text": "Climate & Economic Justice Screening Tool (CEJST)\n\n\n\nDescription\nIdentifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nCensus Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCouncil on Environmental Quality (CEQ)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nJustice 40 Tracts\n\n\n\n{tbl-colwidths=“[20,80]”}\nDetails\nThis dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burdne is organized into the following categories:\n\nClimate Change\nEnergy\nHealth\nHousing\nLegacy Pollution\nTransportation\nWater and wastewater\nWorkforce development"
+  },
+  {
+    "objectID": "index.html#cms-approved-facilities---fqhc-rhc-cah",
+    "href": "index.html#cms-approved-facilities---fqhc-rhc-cah",
+    "title": "Data Catalog",
+    "section": "CMS Approved Facilities - FQHC, RHC, CAH",
+    "text": "CMS Approved Facilities - FQHC, RHC, CAH\n\n\n\n\n\n\n\nDescription\nThis service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent (Additional Information)\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThis is the “Provider of Service” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare & Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).\nAdd to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class."
+  },
+  {
+    "objectID": "index.html#county-health-rankings-roadmaps",
+    "href": "index.html#county-health-rankings-roadmaps",
+    "title": "Data Catalog",
+    "section": "County Health Rankings & Roadmaps",
+    "text": "County Health Rankings & Roadmaps\n\n\n\nDescription\nProvides information on health outcomes and health factors for all 50 states\n\n\nTime Frame\nYear; 2010 to 2024\n\n\nSpatial Scale\nCounty\n\n\nFormat\nCSV and Shapefiles\n\n\nSource\nRobert Wood Johnson Foundation and the University of Wisconsin Population Health Initiative\n\n\nOriginal Repository\n2010 to 2022 2023 or 2024\n\n\nLiving Atlas\n2018 2019 2020 2021 2022 2023 2024\n\n\n\n\n\n\n{tbl-colwidths=“[20,80]”}\n\n\n\nDetails\nThis dataset offers county level estimates of health outcomes and risk factors. Estimates help identify ares requiring improvement and guide the creation and use of effective, focused health interventions. As a result of the difficulty in finding local intervention effects, users should be careful when using these figures to judge programs or policies."
+  },
+  {
+    "objectID": "index.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
+    "href": "index.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
+    "title": "Data Catalog",
+    "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nState and County\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nHeart Disease Mortality - 2014-2016 2017-2019 2018-2020\nStroke Mortality - 2014-2016 2016-2018 2017-2019 2018-2020\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+  },
+  {
+    "objectID": "index.html#environmental-justice-index-eji",
+    "href": "index.html#environmental-justice-index-eji",
+    "title": "Data Catalog",
+    "section": "Environmental Justice Index (EJI)",
+    "text": "Environmental Justice Index (EJI)\n\n\n\nDescription\nA list of all the measures of environmental justice in the United States. This helps communities find and fix environmental injustices, with a focus on vulnerable groups that are gripped by health risks in the environment.\n\n\nTime Frame\nYear; 2023\n\n\nSpatial Scale\nNation, State, County, and Census Tract\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters of Disease Control and Prevention (CDC)\n\n\nOriginal Repository\n2022\n\n\nLiving Atlas\nN/A\n\n\n\n\n\n\n{tbl-colwidths=“[20,80]”}\n\n\n\nDetails\nThe EJI is an aggregate measure of environmental burden that incorporates data from the Census Bureau, Environmenatal Protection Agency, Mine Safety and Health Administation and Centers of Disease Control and Prevention. The index measure is broken down into the modules: Environmental Burden, Social Vulnerability, and Health Vulnerability which are formed by 36 environmental, social, and health factors. The Environmental Burden and Social Vulnerability burden modules also form the Social-Environmental Ranking (SER), which aims to measure distributive and procedural environmental justice factors."
+  },
+  {
+    "objectID": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
+    "href": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
+    "title": "Data Catalog",
+    "section": "Federally Qualified Health Center Service Delivery and Look-Alike Sites",
+    "text": "Federally Qualified Health Center Service Delivery and Look-Alike Sites\n\n\n\n\n\n\n\nDescription\nList of federally-funded health centers that provide health services.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nCSV with Address and X/Y\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHealth centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing."
+  },
+  {
+    "objectID": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
+    "href": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
+    "title": "Data Catalog",
+    "section": "Healthcare Facilities of the Indian Health Service (IHS)",
+    "text": "Healthcare Facilities of the Indian Health Service (IHS)\n\n\n\n\n\n\n\nDescription\nPoint-level representation of the locations of IHS Facilities in the United States\n\n\nTime Frame\nUpdated on Unknown Basis; Currents\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nIndian Health Service (IHS)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S."
+  },
+  {
+    "objectID": "index.html#mapping-medicare-disparities",
+    "href": "index.html#mapping-medicare-disparities",
+    "title": "Data Catalog",
+    "section": "Mapping Medicare Disparities",
+    "text": "Mapping Medicare Disparities\n\n\n\n\n\n\n\nDescription\nHealth outcomes measures to map Medicare disparities\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nState/Territory, County, and Tract (depending on measure)\n\n\nFormat\nCSV\n\n\nSource\nCenter of Medicare & Medicaid Services\n\n\nOriginal Repository\nCurrent (date listed)\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nComposed of multiple tools which display disparities through three views:\n\nPopulation - “The MMD interactive tool contains health outcome measures for disease prevalence, costs, hospitalization for 60 specific chronic conditions, emergency department utilization, readmissions rates, mortality, preventable hospitalizations, and preventive services.”\nHospital - “The MMD interactive map hospital tool identifies area of disparities between hospital quality and cost of care. It allows for a way to compare measures at the hospital, county, state, territory, and national levels”\nSocial Determinants of Health - “This addition to the MMD tool identifies areas of disparities by key Social Determinant of Health (SDOH) domains and measures”"
+  },
+  {
+    "objectID": "index.html#multidimensional-deprivation-index-mdi",
+    "href": "index.html#multidimensional-deprivation-index-mdi",
+    "title": "Data Catalog",
+    "section": "Multidimensional Deprivation Index (MDI)",
+    "text": "Multidimensional Deprivation Index (MDI)\n\n\n\n\n\n\n\nDescription\nMeasure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey\n\n\nTime Frame\nMixed; 2010 to 2019; 2017\n\n\nSpatial Scale\nState and County\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\n2010 to 2019 2017\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nMDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:\n\nNeighborhood Quality\nStandard of Living\nEducation\nHealth\nEconomic Security\nHousing Quality\n\nCannot map by individual dimension."
+  },
+  {
+    "objectID": "index.html#population-level-analysis-and-community-estimates-places",
+    "href": "index.html#population-level-analysis-and-community-estimates-places",
+    "title": "Data Catalog",
+    "section": "Population Level Analysis and Community Estimates (PLACES)",
+    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2023\n\n\nSpatial Scale\nCounty, Place, ZCTA, and Census Tract\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
+  },
+  {
+    "objectID": "index.html#rural-urban-commuting-area-ruca",
+    "href": "index.html#rural-urban-commuting-area-ruca",
+    "title": "Data Catalog",
+    "section": "Rural-Urban Commuting Area (RUCA)",
+    "text": "Rural-Urban Commuting Area (RUCA)\n\n\n\n\n\n\n\nDescription\nThe rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level\n\n\nTime Frame\nMixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS\n\n\nSpatial Scale\nCounty level representation of counties that are defined as PRCDAs/CHSDA\n\n\nFormat\nCSV with GEOIDs\n\n\nSource\nUS Department of Agriculture Economic Research Service\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences."
+  },
+  {
+    "objectID": "index.html#shortage-areas-hpsas-and-muaps",
+    "href": "index.html#shortage-areas-hpsas-and-muaps",
+    "title": "Data Catalog",
+    "section": "Shortage Areas (HPSAs and MUA/Ps)",
+    "text": "Shortage Areas (HPSAs and MUA/Ps)\n\n\n\n\n\n\n\nDescription\nFacility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps).\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nMixed (Point, Tract, County Subdivision, County)\n\n\nFormat\nShapefile and Feature Service\n\n\nSource\nHealth Resources & Services Administration\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities."
+  },
+  {
+    "objectID": "index.html#small-area-health-insurance-estimate-sahie-program",
+    "href": "index.html#small-area-health-insurance-estimate-sahie-program",
+    "title": "Data Catalog",
+    "section": "Small Area Health Insurance Estimate (SAHIE) Program",
+    "text": "Small Area Health Insurance Estimate (SAHIE) Program\n\n\n\nDescription\nOffers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation.\n\n\nTime Frame\nMixed; 2000, 2001, 2005 to 2007, 2008 to 2021\n\n\nSpatial Scale\nState and County\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\n{tbl-colwidths=“[20,80]”}\nDetails\nSAHIE estimates are available for several demographic groups: \n\nAge Groups\nLevels of income\nRace and ethnicity (in states)\nGender\n\nThese estimates aid in identifying regions with a significant number of individuals without health insurance coverage."
+  },
+  {
+    "objectID": "index.html#small-area-income-and-poverty-estimates-saipe-program",
+    "href": "index.html#small-area-income-and-poverty-estimates-saipe-program",
+    "title": "Data Catalog",
+    "section": "Small Area Income and Poverty Estimates (SAIPE) Program",
+    "text": "Small Area Income and Poverty Estimates (SAIPE) Program\n\n\n\nDescription\nOffers yearly estimates of income and poverty information for every school district, country and state in the United States.\n\n\nTime Frame\nYear; 1989 to 2022\n\n\nSpatial Scale\nState, County, and School District\n\n\nFormat\nTables\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThis research presents yearly estimates of income and poverty data, encompassing: \n\nTotal number of people in poverty\nNumber of children under age 18 in poverty\nNumber of related children ages 5 to 17 in families in poverty \nMedian household income\n\nProduced for every school district, county, and state, these figures help pinpoint locations with high poverty rates, which in turn informs policy choices and the creation of targeted solutions."
+  },
+  {
+    "objectID": "index.html#social-vulnerability-index-svi",
+    "href": "index.html#social-vulnerability-index-svi",
+    "title": "Data Catalog",
+    "section": "Social Vulnerability Index (SVI)",
+    "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
+  },
+  {
+    "objectID": "index.html#tribal-census-tract-boundaries",
+    "href": "index.html#tribal-census-tract-boundaries",
+    "title": "Data Catalog",
+    "section": "Tribal Census Tract Boundaries",
+    "text": "Tribal Census Tract Boundaries\n\n\n\n\n\n\n\nDescription\nPolygons representing individual tribal census tracts throughout the United States\n\n\nYears\nYear; 2007 to 2023\n\n\nSpatial Scale\nTribal Tract\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails:\nTribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.\nIf you would like attributes associated with these Tribal Census Tract Boundaries, you can visit https://data2.nhgis.org/main. Select Geographic levels -&gt; Native American/Alaskan/Hawaiian -&gt; Tribal Census Tracts. You can then select years, topics, and datasets to filter ACS Tables"
   },
   {
     "objectID": "posts/welcome/index.html",

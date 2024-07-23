@@ -3,24 +3,21 @@ title: "New Datasets Added"
 author: "Naiya Vora"
 date: "2024-07-23"
 categories: [News]
-s---
 ---
 
 Welcome to the data catalog! We've recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:
 
--   **Environmental Justice Index (EJI)** (cdc.gov)
+-   **Environmental Justice Index (EJI)**
 
 -   **County Health Rankings & Roadmaps**
 
--   **Small Area Health Insurance Estimates (SAHIE) Program** (census.gov)
+-   **Small Area Health Insurance Estimates (SAHIE) Program**
 
--   **Small Area Income and Poverty Estimates (SAIPE) Program** (census.gov)
+-   **Small Area Income and Poverty Estimates (SAIPE) Program**
 
--   **Methodology & Data - Climate & Economic Justice Screening Tool** (geoplatform.gov)
+-   **Methodology & Data - Climate & Economic Justice Screening Tool**
 
--   **Hospitals \| HIFLD** (arcgis.com)
+If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
 
-We hope these resources will enhance your research and analysis. If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
-
-Best,\
+Best,
 The CEHI Training Team
