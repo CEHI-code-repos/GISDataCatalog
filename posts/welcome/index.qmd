@@ -6,7 +6,7 @@ categories: [News]
 image: "standard_logo_1_09_outlines.png"
 ---
 
-Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi ([rzomor2@uic.edu](mailto:rzomor2@uic.edu))
+Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu))
 
-Best,  
+Best,\
 The CEHI Training Team
