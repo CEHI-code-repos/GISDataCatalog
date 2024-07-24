@@ -90,7 +90,7 @@ If you are looking for historical data, the census.gov website can be difficult 
 : {tbl-colwidths="\[20,80\]"}
 
 **Details**\
-This dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burdne is organized into the following categories:
+This dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burden is organized into the following categories:
 
 -   Climate Change
 
