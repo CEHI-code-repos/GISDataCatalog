@@ -1,0 +1,27 @@
+---
+title: "Five Favorite Datasets"
+date-modified: last-modified
+format: 
+    html:
+        toc: true
+---
+
+{{< pagebreak >}}
+
+{{< include resources/_cms-facilities.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include resources/_cdc-hdsm.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include resources/_cms-mmd.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include resources/_cdc-places.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include resources/_cdc-svi.qmd >}}

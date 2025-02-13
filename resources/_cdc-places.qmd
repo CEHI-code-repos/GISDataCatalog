@@ -1,0 +1,26 @@
+## Population Level Analysis and Community Estimates (PLACES)
+
+|                         |                                                                                                                                                                           |
+|---------------|---------------------------------------------------------|
+| **Description**         | The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales |
+| **Time Frame**          | Year; 2019 to 2023                                                                                                                                                        |
+| **Spatial Scale**       | Counties, Places, ZCTAs, and Census Tracts                                                                                                                                |
+| **Format**              | Tables and Shapefiles                                                                                                                                                     |
+| **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                          |
+| **Original Repository** | [All Years](https://data.cdc.gov/browse?category=500+Cities+%26+Places)                                                                                                   |
+| **Living Atlas**        | [Current](https://www.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7)                                                                                      |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+This project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.
+
+Dataset includes estimates for 29 measures (definitions here):
+
+-   Chronic Disease Related Health Outcomes (13)
+-   Prevention Measures (9)
+-   Health Risk Behaviors (4)
+-   Disability (7)
+-   Health Status (3)
+
+These estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations.

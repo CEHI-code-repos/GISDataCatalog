@@ -1,0 +1,16 @@
+## Healthcare Facilities of the Indian Health Service (IHS)
+
+|                         |                                                                                      |
+|------------------|------------------------------------------------------|
+| **Description**         | Point-level representation of the locations of IHS Facilities in the United States   |
+| **Time Frame**          | Updated on Unknown Basis; Currents                                                   |
+| **Spatial Scale**       | Point                                                                                |
+| **Format**              | Feature Service                                                                      |
+| **Source**              | Indian Health Service (IHS)                                                          |
+| **Original Repository** | [Current](https://www.ihs.gov/locations/)                                            |
+| **Living Atlas**        | [Current](https://www.arcgis.com/home/item.html?id=f54bca11a622446c9472e962fdaf2bea) |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S.

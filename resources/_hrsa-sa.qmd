@@ -1,0 +1,16 @@
+## Shortage Areas (HPSAs and MUA/Ps)
+
+|                         |                                                                                                                                                      |
+|---------------|---------------------------------------------------------|
+| **Description**         | Facility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps). |
+| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                    |
+| **Spatial Scale**       | Mixed (Point, Tract, County Subdivision, County)                                                                                                     |
+| **Format**              | Shapefile and Feature Service                                                                                                                        |
+| **Source**              | Health Resources & Services Administration                                                                                                           |
+| **Original Repository** | [Current](https://data.hrsa.gov/data/download#heading12)                                                                                             |
+| **Living Atlas**        | N/A                                                                                                                                                  |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+HRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities.

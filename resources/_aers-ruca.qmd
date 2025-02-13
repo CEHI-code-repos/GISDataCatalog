@@ -1,0 +1,16 @@
+## Rural-Urban Commuting Area (RUCA)
+
+|                         |                                                                                                                                                                                      |
+|--------------|----------------------------------------------------------|
+| **Description**         | The rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level |
+| **Time Frame**          | Mixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS                                                                                                                            |
+| **Spatial Scale**       | County level representation of counties that are defined as PRCDAs/CHSDA                                                                                                             |
+| **Format**              | CSV with GEOIDs                                                                                                                                                                      |
+| **Source**              | US Department of Agriculture Economic Research Service                                                                                                                               |
+| **Original Repository** | [All Years](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/)                                                                                                |
+| **Living Atlas**        | N/A                                                                                                                                                                                  |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences.

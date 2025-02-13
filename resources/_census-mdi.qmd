@@ -1,0 +1,25 @@
+## Multidimensional Deprivation Index (MDI)
+
+|                         |                                                                                                                                                                              |
+|---------------|---------------------------------------------------------|
+| **Description**         | Measure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey                                                          |
+| **Time Frame**          | Mixed; 2010 to 2019; 2017                                                                                                                                                    |
+| **Spatial Scale**       | State and County                                                                                                                                                             |
+| **Format**              | Shapefile                                                                                                                                                                    |
+| **Source**              | US Census Bureau                                                                                                                                                             |
+| **Original Repository** | [2010 to 2019](https://www.census.gov/topics/income-poverty/poverty/about/related-sites/rates.html) [2017](https://www.census.gov/library/publications/2019/acs/acs-40.html) |
+| **Living Atlas**        | N/A                                                                                                                                                                          |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+MDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:
+
+-   Neighborhood Quality
+-   Standard of Living
+-   Education
+-   Health
+-   Economic Security
+-   Housing Quality
+
+Cannot map by individual dimension.

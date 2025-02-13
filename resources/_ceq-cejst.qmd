@@ -1,0 +1,32 @@
+## Climate & Economic Justice Screening Tool (CEJST)
+
+|                         |                                                                                                                                                                                                                   |
+|--------------|----------------------------------------------------------|
+| **Description**         | Identifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness. |
+| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                                                                                 |
+| **Spatial Scale**       | Census Tract                                                                                                                                                                                                      |
+| **Format**              | CSV and Shapefile                                                                                                                                                                                                 |
+| **Source**              | Council on Environmental Quality (CEQ)                                                                                                                                                                            |
+| **Original Repository** | [All Years](https://screeningtool.geoplatform.gov/en/methodology)                                                                                                                                                 |
+| **Living Atlas**        | [Justice 40 Tracts](https://www.arcgis.com/home/item.html?id=f95344889cab44bd84207052f44cb940)                                                                                                                    |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+This dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burden is organized into the following categories:
+
+-   Climate Change
+
+-   Energy
+
+-   Health
+
+-   Housing
+
+-   Legacy Pollution
+
+-   Transportation
+
+-   Water and wastewater
+
+-   Workforce development

@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - text: Favorites
-        href: fiveFavoriteDatasets.qmd
+        href: five_favorites.qmd
       - updates.qmd
       - about.qmd
   search: false

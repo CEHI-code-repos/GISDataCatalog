@@ -1,0 +1,26 @@
+## Small Area Health Insurance Estimate (SAHIE) Program
+
+|                         |                                                                                                                                                                                                                                    |
+|--------------|----------------------------------------------------------|
+| **Description**         | Offers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation. |
+| **Time Frame**          | Mixed; 2000, 2001, 2005 to 2007, 2008 to 2021                                                                                                                                                                                      |
+| **Spatial Scale**       | State and County                                                                                                                                                                                                                   |
+| **Format**              | CSV and Shapefile                                                                                                                                                                                                                  |
+| **Source**              | U.S. Census Bureau                                                                                                                                                                                                                 |
+| **Original Repository** | [All Years](https://www.census.gov/programs-surveys/sahie/data/datasets.html)                                                                                                                                                      |
+| **Living Atlas**        | N/A                                                                                                                                                                                                                                |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+SAHIE estimates are available for several demographic groups: 
+
+-   Age Groups
+
+-   Levels of income
+
+-   Race and ethnicity (in states)
+
+-   Gender
+
+These estimates aid in identifying regions with a significant number of individuals without health insurance coverage.
