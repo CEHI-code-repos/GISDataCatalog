@@ -11,72 +11,72 @@ format:
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-500-cities.qmd >}}
+{{< include resources/us/_cdc-500-cities.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_census-acs5.qmd >}}
+{{< include resources/us/_census-acs5.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_ceq-cejst.qmd >}}
+{{< include resources/us/_ceq-cejst.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cms-facilities.qmd >}}
+{{< include resources/us/_cms-facilities.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_uw-chr.qmd >}}
+{{< include resources/us/_uw-chr.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-hdsm.qmd >}}
+{{< include resources/us/_cdc-hdsm.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-eji.qmd >}}
+{{< include resources/us/_cdc-eji.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_hrsa-fqhc.qmd >}}
+{{< include resources/us/_hrsa-fqhc.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_ihs-facilities.qmd >}}
+{{< include resources/us/_ihs-facilities.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cms-mmd.qmd >}}
+{{< include resources/us/_cms-mmd.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_census-mdi.qmd >}}
+{{< include resources/us/_census-mdi.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-places.qmd >}}
+{{< include resources/us/_cdc-places.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_aers-ruca.qmd >}}
+{{< include resources/us/_aers-ruca.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_hrsa-sa.qmd >}}
+{{< include resources/us/_hrsa-sa.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_census-sahie.qmd >}}
+{{< include resources/us/_census-sahie.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_census-saipe.qmd >}}
+{{< include resources/us/_census-saipe.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-svi.qmd >}}
+{{< include resources/us/_cdc-svi.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_census-tribtract.qmd >}}
+{{< include resources/us/_census-tribtract.qmd >}}

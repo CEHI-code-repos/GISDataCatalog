@@ -1,0 +1,23 @@
+## Social Vulnerability Index (SVI)
+
+|                         |                                                                                                                                                                                                                                                       |
+|------------------|------------------------------------------------------|
+| **Description**         | The [Social Vulnerability Index](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.                        |
+| **Time Frame**          | Year; 2000, 2010, 2014, 2016, 2018, 2020, 2022                                                                                                                                                                                                        |
+| **Spatial Scale**       | County and Census Tract                                                                                                                                                                                                                               |
+| **Format**              | CSV and Geodatabase                                                                                                                                                                                                                                   |
+| **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                                                                                                      |
+| **Original Repository** | [All Years](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)                                                                                                                                                      |
+| **Living Atlas**        | [2018](https://www.arcgis.com/home/item.html?id=cbd68d9887574a10bc89ea4efe2b8087) [2020](https://www.arcgis.com/home/item.html?id=05709059044243ae9b42f469f0e06642) [2022](https://www.arcgis.com/home/item.html?id=414c0b43a0ec4adc829d5815bc621750) |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+Ranking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:
+
+-   Housing Type and Transportation
+-   Household Composition and Disability
+-   Socioeconomic Status
+-   Minority Status and Language
+
+Can also map by individual dimension.

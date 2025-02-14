@@ -1,7 +1,7 @@
 ## Rural-Urban Commuting Area (RUCA)
 
 |                         |                                                                                                                                                                                      |
-|--------------|----------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **Description**         | The rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level |
 | **Time Frame**          | Mixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS                                                                                                                            |
 | **Spatial Scale**       | County level representation of counties that are defined as PRCDAs/CHSDA                                                                                                             |

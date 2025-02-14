@@ -1,0 +1,36 @@
+## Hawaii Statewide GIS Data Portal
+
+|                         |                                                                                                                                                                                                                                             |
+|-------------------|-----------------------------------------------------|
+| **Description**         | The Hawaii Statewide GIS maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, climate, human health & safety, infrastructure, and transportation. |
+| **Time Frame**          | Varies                                                                                                                                                                                                                                      |
+| **Spatial Scale**       | Varies                                                                                                                                                                                                                                      |
+| **Format**              | Varies                                                                                                                                                                                                                                      |
+| **Source**              | Hawaii State Office of Planning and Sustainable Development                                                                                                                                                                                 |
+| **Original Repository** | [Data Portal](https://geoportal.hawaii.gov/); [Expanded Data Portal](https://planning.hawaii.gov/gis/download-gis-data-expanded/); [Rest Services](https://geodata.hawaii.gov/arcgis/rest/services)                                         |
+| **Living Atlas**        | N/A                                                                                                                                                                                                                                         |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The Hawaii Statewide GIS Portal includes many healthcare infrastructure datasets like:
+
+-   [Hospitals](https://geoportal.hawaii.gov/maps/0d854c26882c46b9bf4431ba7c9a5ea4)
+
+-   [Hospice Facilities](https://geoportal.hawaii.gov/maps/20151982d21346728ed0c2cb2a7c6dd5)
+
+-   [Assisted Living Facilities](https://geoportal.hawaii.gov/maps/cbce17738f66455ca84ad3446e98fe3e)
+
+-   [Health Professional Shortage Areas - Mental Health](https://geoportal.hawaii.gov/maps/62e7d719bff84c979545a098c64b6e53)
+
+Or other important infrastructure like:
+
+-   [County Parks](https://geoportal.hawaii.gov/maps/bdf885a00fd9493d81b856aa78cd949d)
+
+-   [State Parks](https://geoportal.hawaii.gov/maps/fc2e0c95b32e4a11af5dafa518574aa0)
+
+-   [Public Schools](https://geoportal.hawaii.gov/maps/ba92e2fc0d2d4497af7289cb4ab552a7)
+
+-   [Public Libraries](https://geoportal.hawaii.gov/maps/94eb8a721bb54da598b246f14bda41a6)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.

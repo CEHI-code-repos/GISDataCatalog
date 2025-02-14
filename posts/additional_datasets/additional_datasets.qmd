@@ -5,7 +5,7 @@ date: "2024-07-23"
 categories: [News]
 ---
 
-Welcome to the data catalog! We've recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:
+We've recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:
 
 -   **Environmental Justice Index (EJI)**
 

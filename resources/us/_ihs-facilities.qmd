@@ -3,7 +3,7 @@
 |                         |                                                                                      |
 |------------------|------------------------------------------------------|
 | **Description**         | Point-level representation of the locations of IHS Facilities in the United States   |
-| **Time Frame**          | Updated on Unknown Basis; Currents                                                   |
+| **Time Frame**          | Updated on Unknown Basis; Current                                                    |
 | **Spatial Scale**       | Point                                                                                |
 | **Format**              | Feature Service                                                                      |
 | **Source**              | Indian Health Service (IHS)                                                          |

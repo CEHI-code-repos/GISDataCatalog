@@ -8,20 +8,20 @@ format:
 
 {{< pagebreak >}}
 
-{{< include resources/_cms-facilities.qmd >}}
+{{< include resources/us/_cms-facilities.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-hdsm.qmd >}}
+{{< include resources/us/_cdc-hdsm.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cms-mmd.qmd >}}
+{{< include resources/us/_cms-mmd.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-places.qmd >}}
+{{< include resources/us/_cdc-places.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include resources/_cdc-svi.qmd >}}
+{{< include resources/us/_cdc-svi.qmd >}}

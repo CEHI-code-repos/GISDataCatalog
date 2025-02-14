@@ -1,13 +1,13 @@
 ## Environmental Justice Index (EJI)
 
 |                         |                                                                                                                                                                                                                                |
-|--------------|----------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | **Description**         | A list of all the measures of environmental justice in the United States. This helps communities find and fix environmental injustices, with a focus on vulnerable groups that are gripped by health risks in the environment. |
-| **Time Frame**          | Year; 2023                                                                                                                                                                                                                     |
+| **Time Frame**          | Year; 2022 & 2024                                                                                                                                                                                                              |
 | **Spatial Scale**       | Nation, State, County, and Census Tract                                                                                                                                                                                        |
-| **Format**              | Tables and Shapefiles                                                                                                                                                                                                          |
+| **Format**              | CSV and Geodatabase                                                                                                                                                                                                            |
 | **Source**              | Centers of Disease Control and Prevention (CDC)                                                                                                                                                                                |
-| **Original Repository** | [2022](https://www.atsdr.cdc.gov/placeandhealth/eji/eji-data-download.html)                                                                                                                                                    |
+| **Original Repository** | [All years](https://www.atsdr.cdc.gov/place-health/php/eji/eji-data-download.html)                                                                                                                                             |
 | **Living Atlas**        | N/A                                                                                                                                                                                                                            |
 
 : {tbl-colwidths="\[20,80\]"}

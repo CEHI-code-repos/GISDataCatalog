@@ -7,6 +7,8 @@ website:
     right:
       - text: Favorites
         href: five_favorites.qmd
+      - text: Hawaii
+        href: hawaii.qmd
       - updates.qmd
       - about.qmd
   search: false

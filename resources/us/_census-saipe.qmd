@@ -3,7 +3,7 @@
 |                         |                                                                                                                              |
 |----------------|--------------------------------------------------------|
 | **Description**         | Offers yearly estimates of income and poverty information for every school district, country and state in the United States. |
-| **Time Frame**          | Year; 1989 to 2022                                                                                                           |
+| **Time Frame**          | Year; 1989 to 2023                                                                                                           |
 | **Spatial Scale**       | State, County, and School District                                                                                           |
 | **Format**              | Tables                                                                                                                       |
 | **Source**              | U.S. Census Bureau                                                                                                           |

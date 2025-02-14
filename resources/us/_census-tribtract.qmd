@@ -3,7 +3,7 @@
 |                         |                                                                                    |
 |------------------|------------------------------------------------------|
 | **Description**         | Polygons representing individual tribal census tracts throughout the United States |
-| **Years**               | Year; 2007 to 2023                                                                 |
+| **Years**               | Year; 2007 to 2024                                                                 |
 | **Spatial Scale**       | Tribal Tract                                                                       |
 | **Format**              | Shapefile                                                                          |
 | **Source**              | US Census Bureau                                                                   |
@@ -15,4 +15,4 @@
 **Details:**\
 Tribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.
 
-If you would like attributes associated with these Tribal Census Tract Boundaries, you can visit <https://data2.nhgis.org/main.> Select **Geographic levels -\> Native American/Alaskan/Hawaiian -\> Tribal Census Tracts**. You can then select years, topics, and datasets to filter ACS Tables
+If you would like attributes associated with these Tribal Census Tract Boundaries, you can visit <https://data2.nhgis.org/main>. Select **Geographic levels -\> Native American/Alaskan/Hawaiian -\> Tribal Census Tracts**. You can then select years, topics, and datasets to filter ACS Tables

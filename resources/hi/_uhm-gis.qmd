@@ -1,0 +1,18 @@
+## University of Hawai'i at Manoa Library GIS Data Resource Guide
+
+|                         |                                                                                                                   |
+|----------------------|--------------------------------------------------|
+| **Description**         | The University of Hawai'i at Manoa hosts its own Data Catalog with links to various Hawaii-relevant data sources. |
+| **Time Frame**          | Varies                                                                                                            |
+| **Spatial Scale**       | Varies                                                                                                            |
+| **Format**              | Varies                                                                                                            |
+| **Source**              | University of Hawai'i at Manoa Library                                                                            |
+| **Original Repository** | [Resource Guide](https://guides.library.manoa.hawaii.edu/gisdata/home)                                            |
+| **Living Atlas**        | N/A                                                                                                               |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The University of Hawai'i at Manoa Library GIS Data Resource Guide features Hawaii, Pacific, Asia, national, and international data sets, which are sorted by both geography and category.
+
+Note: A few of the resources listed are commercial data sources with restricted use.

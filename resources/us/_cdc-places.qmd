@@ -1,9 +1,9 @@
 ## Population Level Analysis and Community Estimates (PLACES)
 
 |                         |                                                                                                                                                                           |
-|---------------|---------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **Description**         | The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales |
-| **Time Frame**          | Year; 2019 to 2023                                                                                                                                                        |
+| **Time Frame**          | Year; 2019 to 2024                                                                                                                                                        |
 | **Spatial Scale**       | Counties, Places, ZCTAs, and Census Tracts                                                                                                                                |
 | **Format**              | Tables and Shapefiles                                                                                                                                                     |
 | **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                          |
