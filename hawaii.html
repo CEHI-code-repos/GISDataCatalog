@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Updates – Data Catalog</title>
+<title>Hawaii-Specific Data Resources – Data Catalog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -52,72 +50,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -135,11 +75,11 @@ window.Quarto = {
 <span class="menu-text">Favorites</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hawaii.html"> 
+    <a class="nav-link active" href="./hawaii.html" aria-current="page"> 
 <span class="menu-text">Hawaii</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./updates.html" aria-current="page"> 
+    <a class="nav-link" href="./updates.html"> 
 <span class="menu-text">Updates</span></a>
   </li>  
   <li class="nav-item">
@@ -154,145 +94,150 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Updates</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TmV3cw==">News <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hawaii-statewide-gis-data-portal" id="toc-hawaii-statewide-gis-data-portal" class="nav-link active" data-scroll-target="#hawaii-statewide-gis-data-portal">Hawaii Statewide GIS Data Portal</a></li>
+  <li><a href="#university-of-hawaii-at-manoa-library-gis-data-resource-guide" id="toc-university-of-hawaii-at-manoa-library-gis-data-resource-guide" class="nav-link" data-scroll-target="#university-of-hawaii-at-manoa-library-gis-data-resource-guide">University of Hawai’i at Manoa Library GIS Data Resource Guide</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hawaii-Specific Data Resources</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 14, 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
 
 
+</header>
 
 
+<div style="page-break-after: always;"></div>
+<section id="hawaii-statewide-gis-data-portal" class="level2">
+<h2 class="anchored" data-anchor-id="hawaii-statewide-gis-data-portal">Hawaii Statewide GIS Data Portal</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The Hawaii Statewide GIS maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, climate, human health &amp; safety, infrastructure, and transportation.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Hawaii State Office of Planning and Sustainable Development</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://geoportal.hawaii.gov/">Data Portal</a>; <a href="https://planning.hawaii.gov/gis/download-gis-data-expanded/">Expanded Data Portal</a>; <a href="https://geodata.hawaii.gov/arcgis/rest/services">Rest Services</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+The Hawaii Statewide GIS Portal includes many healthcare infrastructure datasets like:</p>
+<ul>
+<li><p><a href="https://geoportal.hawaii.gov/maps/0d854c26882c46b9bf4431ba7c9a5ea4">Hospitals</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/20151982d21346728ed0c2cb2a7c6dd5">Hospice Facilities</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/cbce17738f66455ca84ad3446e98fe3e">Assisted Living Facilities</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/62e7d719bff84c979545a098c64b6e53">Health Professional Shortage Areas - Mental Health</a></p></li>
+</ul>
+<p>Or other important infrastructure like:</p>
+<ul>
+<li><p><a href="https://geoportal.hawaii.gov/maps/bdf885a00fd9493d81b856aa78cd949d">County Parks</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/fc2e0c95b32e4a11af5dafa518574aa0">State Parks</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/ba92e2fc0d2d4497af7289cb4ab552a7">Public Schools</a></p></li>
+<li><p><a href="https://geoportal.hawaii.gov/maps/94eb8a721bb54da598b246f14bda41a6">Public Libraries</a></p></li>
+</ul>
+<p>All datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="university-of-hawaii-at-manoa-library-gis-data-resource-guide" class="level2">
+<h2 class="anchored" data-anchor-id="university-of-hawaii-at-manoa-library-gis-data-resource-guide">University of Hawai’i at Manoa Library GIS Data Resource Guide</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Description</strong></td>
+<td>The University of Hawai’i at Manoa hosts its own Data Catalog with links to various Hawaii-relevant data sources.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Frame</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="odd">
+<td><strong>Spatial Scale</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="even">
+<td><strong>Format</strong></td>
+<td>Varies</td>
+</tr>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>University of Hawai’i at Manoa Library</td>
+</tr>
+<tr class="even">
+<td><strong>Original Repository</strong></td>
+<td><a href="https://guides.library.manoa.hawaii.edu/gisdata/home">Resource Guide</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Living Atlas</strong></td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Details</strong><br>
+The University of Hawai’i at Manoa Library GIS Data Resource Guide features Hawaii, Pacific, Asia, national, and international data sets, which are sorted by both geography and category.</p>
+<p>Note: A few of the resources listed are commercial data sources with restricted use.</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TmV3cw==" data-listing-date-sort="1769990400000" data-listing-file-modified-sort="1739562475593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
-<div class="thumbnail">
-<p><a href="./posts/feb25_update/index.html" class="no-external"></a></p><a href="./posts/feb25_update/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/feb25_update/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/feb25_update/index.html" class="no-external">Updates and New Hawaii Resources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/feb25_update/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
-News
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/feb25_update/index.html" class="no-external">We’ve recently updated all our the datasets. A standout is the Climate &amp; Economic Justice Screening Tool (CEJST), which has been taken down, but archived by the…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/feb25_update/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2026
-</div>
-<div class="listing-author">
-Ryan Zomorrodi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TmV3cw==" data-listing-date-sort="1721692800000" data-listing-file-modified-sort="1739562475593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<div class="thumbnail">
-<p><a href="./posts/additional_datasets/additional_datasets.html" class="no-external"></a></p><a href="./posts/additional_datasets/additional_datasets.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/additional_datasets/additional_datasets.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/additional_datasets/additional_datasets.html" class="no-external">New Datasets Added</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/additional_datasets/additional_datasets.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
-News
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/additional_datasets/additional_datasets.html" class="no-external">We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/additional_datasets/additional_datasets.html" class="no-external">
-<div class="listing-date">
-Jul 23, 2024
-</div>
-<div class="listing-author">
-Naiya Vora
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TmV3cw==" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1739562475593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/welcome/standard_logo_1_09_outlines.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome to the Data Catalog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
-News
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Feb 19, 2024
-</div>
-<div class="listing-author">
-Ryan Zomorrodi
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
