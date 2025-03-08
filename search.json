@@ -77,20 +77,6 @@
     "text": "NebraskaMap\n\n\n\n\n\n\n\nDescription\nThe NebrasksaMap maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNebraska Geographic Information Office\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe NebraskaMap includes many healthcare infrastructure datasets like:\n\nDHHS Rural Health Clinics\nDHHS Hospitals\nDHHS Assisted Living Facilities\nDHHS Long Term Care Facilities\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
   },
   {
-    "objectID": "hawaii.html#hawaii-statewide-gis-data-portal",
-    "href": "hawaii.html#hawaii-statewide-gis-data-portal",
-    "title": "Hawaii-Specific Data Resources",
-    "section": "Hawaii Statewide GIS Data Portal",
-    "text": "Hawaii Statewide GIS Data Portal\n\n\n\n\n\n\n\nDescription\nThe Hawaii Statewide GIS maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, climate, human health & safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nHawaii State Office of Planning and Sustainable Development\n\n\nOriginal Repository\nData Portal; Expanded Data Portal; Rest Services\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Hawaii Statewide GIS Portal includes many healthcare infrastructure datasets like:\n\nHospitals\nHospice Facilities\nAssisted Living Facilities\nHealth Professional Shortage Areas - Mental Health\n\nOr other important infrastructure like:\n\nCounty Parks\nState Parks\nPublic Schools\nPublic Libraries\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
-    "href": "hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
-    "title": "Hawaii-Specific Data Resources",
-    "section": "University of Hawai’i at Manoa Library GIS Data Resource Guide",
-    "text": "University of Hawai’i at Manoa Library GIS Data Resource Guide\n\n\n\n\n\n\n\nDescription\nThe University of Hawai’i at Manoa hosts its own Data Catalog with links to various Hawaii-relevant data sources.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nUniversity of Hawai’i at Manoa Library\n\n\nOriginal Repository\nResource Guide\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe University of Hawai’i at Manoa Library GIS Data Resource Guide features Hawaii, Pacific, Asia, national, and international data sets, which are sorted by both geography and category.\nNote: A few of the resources listed are commercial data sources with restricted use."
-  },
-  {
     "objectID": "index.html#cities",
     "href": "index.html#cities",
     "title": "National GIS Data",
