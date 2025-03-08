@@ -1,0 +1,12 @@
+---
+title: "New State-Specific Resources"
+author: "Ryan Zomorrodi"
+date: "2025-03-07"
+categories: [News]
+---
+
+We have added state specific resoruces for [Alaska](../../states/alaska.qmd), [California](../../states/california.qmd), [Nebraska](../../states/nebraska.qmd), [New Jersey](../../states/new_jersey.qmd), [Virginia](../../states/virginia.qmd), and [Vermont](../../states/vermont.qmd) for some Hawaii-specific data resources.
+
+If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
+
+Best, The CEHI Training Team

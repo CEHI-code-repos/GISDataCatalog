@@ -1,0 +1,24 @@
+## **NJGIN Open Data Portal**
+
+|  |  |
+|---------------------|---------------------------------------------------|
+| **Description** | The NJGIN Open Data Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation. |
+| **Time Frame** | Varies |
+| **Spatial Scale** | Varies |
+| **Format** | Varies |
+| **Source** | New Jersey Office of GIS |
+| **Original Repository** | [Data Portal](https://njogis-newjersey.opendata.arcgis.com/) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The Vermont Open Geodata Portal includes many health-related datasets like:
+
+-   [Acute Care Hospitals](https://njogis-newjersey.opendata.arcgis.com/datasets/newjersey::acute-care-hospitals-in-nj/about)
+
+-   [Long Term Care Facilities](https://njogis-newjersey.opendata.arcgis.com/datasets/newjersey::long-term-care-facilities-of-new-jersey/about)
+
+-   [Overburdened Communities under the New Jersey Environmental Justice Law 2021](https://njogis-newjersey.opendata.arcgis.com/datasets/njdep::overburdened-communities-under-the-new-jersey-environmental-justice-law-2021/about)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.

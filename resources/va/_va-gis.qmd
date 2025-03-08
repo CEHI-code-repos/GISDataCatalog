@@ -1,0 +1,26 @@
+## **Virginia GIS Clearinghouse**
+
+|  |  |
+|---------------------|---------------------------------------------------|
+| **Description** | The Virginia GIS Clearinghouse maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation. |
+| **Time Frame** | Varies |
+| **Spatial Scale** | Varies |
+| **Format** | Varies |
+| **Source** | Virginia Department of Emergency Management |
+| **Original Repository** | [Data Portal](https://vgin.vdem.virginia.gov/pages/clearinghouse) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The Virginia GIS Clearinghouse includes many health-related datasets like:
+
+-   [Virginia Hospitals](https://vgin.vdem.virginia.gov/datasets/cc17f1dd831d48e98ac6d5a3593a67d4_1/explore?location=37.810844%2C-79.504900%2C7.64)
+
+-   [Virginia Administrative Boundaries](https://vgin.vdem.virginia.gov/datasets/777890ecdb634d18a02eec604db522c6/about)
+
+-   [Virginia Transit Routes & Stops GTFS](https://vgin.vdem.virginia.gov/maps/52a9af0ebd794ca5abc382aaa2743205/about)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.
+
+There is also a [custom locator](https://vginmaps.vdem.virginia.gov/arcgis/rest/services/Geocoding/VGIN_Composite_Locator/GeocodeServer), which can be used to conduct geocoding within the state.

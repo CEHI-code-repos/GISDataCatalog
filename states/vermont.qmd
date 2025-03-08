@@ -1,0 +1,12 @@
+---
+title: "Vermont-Specific Data Resources"
+title-block-banner: true
+date-modified: last-modified
+format: 
+    html:
+        toc: true
+---
+
+{{< pagebreak >}}
+
+{{< include ../resources/vt/_vt-gis.qmd >}}

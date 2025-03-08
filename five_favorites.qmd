@@ -1,5 +1,7 @@
 ---
 title: "Five Favorite Datasets"
+subtitle: "Some of our favorite datasets that we want to shine a spotlight on."
+title-block-banner: true
 date-modified: last-modified
 format: 
     html:

@@ -1,0 +1,24 @@
+## California State Geoportal
+
+|  |  |
+|----------------------|--------------------------------------------------|
+| **Description** | The California State Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, education, health, infrastructure, and transportation. |
+| **Time Frame** | Varies |
+| **Spatial Scale** | Varies |
+| **Format** | Varies |
+| **Source** | California Department of Technology |
+| **Original Repository** | [Data Portal](https://gis.data.ca.gov/) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The California State Geoportal includes several public health-relevant datasets:
+
+-   [California Public Schools and Districts Map](https://gis.data.ca.gov/maps/169b581b560d4150b03ce84502fa5c72/explore?location=39.187762%2C-122.305216%2C7.62)
+
+-   [CalEnviroScreen 4.0 Results](https://gis.data.ca.gov/datasets/b6e0a01c423b489f8d98af641445da28_0/explore?location=36.948232%2C-119.004140%2C6.93&showTable=true)
+
+-   [State Highway Network Lines \| California State Geoportal](https://gis.data.ca.gov/datasets/77f2d7ba94e040a78bfbe36feb6279da_0/about)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.

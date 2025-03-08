@@ -1,12 +1,21 @@
 ---
-title: "Data Catalog"
+title: "National GIS Data"
+subtitle: "A collection of spatial datasets designed to support public health spatial analyses and visualizations."
+title-block-banner: true
 date-modified: last-modified
 format: 
     html:
         toc: true
-    PrettyPDF-pdf:
+    typst:
         toc: true
-        colorlinks: true
+        logo:
+            location: right-bottom
+    
+format-links:
+  - html
+  - format: typst
+    text: PDF
+    icon: file-pdf
 ---
 
 {{< pagebreak >}}

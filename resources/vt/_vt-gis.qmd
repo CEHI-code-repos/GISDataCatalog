@@ -1,0 +1,28 @@
+## **Vermont Open Geodata Portal**
+
+|  |  |
+|---------------------|---------------------------------------------------|
+| **Description** | The Vermont Open Geodata Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation. |
+| **Time Frame** | Varies |
+| **Spatial Scale** | Varies |
+| **Format** | Varies |
+| **Source** | State of Vermont |
+| **Original Repository** | [Data Portal](https://geodata.vermont.gov/) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The Vermont Open Geodata Portal includes many health-related datasets like:
+
+-   [Vermont Health Districts](https://geodata.vermont.gov/datasets/ahs-vt::vt-vermont-health-districts/about)
+
+-   [Vermont Hospital Service Areas](https://geodata.vermont.gov/datasets/ahs-vt::vt-vermont-hospital-service-areas/about)
+
+-   [VT Data 2020 Census County](https://geodata.vermont.gov/datasets/VCGI::vt-data-2020-census-county/about)
+
+-   [VT Data 2020 Census County Subdivision](https://geodata.vermont.gov/datasets/VCGI::vt-data-2020-census-county-subdivision/about)
+
+-   [VT Data 2020 Census Tract](https://geodata.vermont.gov/datasets/VCGI::vt-data-2020-census-tract/about)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.

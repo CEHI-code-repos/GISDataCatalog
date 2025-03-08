@@ -1,0 +1,28 @@
+color:
+  palette:
+    light-grey: "#f6f6f6"
+    dark-grey: "#222222"
+    blue: "#ddeaf1"
+    cehi-blue: "#1a3652"
+  background: light-grey
+  foreground: dark-grey
+  primary: blue
+  info: cehi-blue
+
+logo: 
+  medium: logo.png
+
+typography:
+  fonts:
+    - family: Nunito Sans
+      source: google
+    - family: Merriweather
+      source: google
+  base: Nunito Sans
+  headings:
+    family: Merriweather
+    color: dark-grey
+
+  link:
+    color: info
+    decoration: underline

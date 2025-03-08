@@ -1,0 +1,26 @@
+## State of Alaska Geoportal
+
+|  |  |
+|---------------------|---------------------------------------------------|
+| **Description** | The State of Alaska Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, infrastructure, and transportation. |
+| **Time Frame** | Varies |
+| **Spatial Scale** | Varies |
+| **Format** | Varies |
+| **Source** | State of Alaska |
+| **Original Repository** | [Data Portal](https://gis.data.alaska.gov/) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+The State of Alaska Geoportal includes many demographic datasets:
+
+-   [ACS Population Characteristics: Family Income and Benefits - Borough](https://statewide-geoportal-1-soa-dnr.hub.arcgis.com/datasets/DCCED::acs-population-characteristics-family-income-and-benefits-borough/about)
+
+-   [ACS Population Characteristics: Housing](https://statewide-geoportal-1-soa-dnr.hub.arcgis.com/datasets/DCCED::acs-population-characteristics-housing/about)
+
+-   [ACS Population Characteristics: Household Income and Benefits](https://statewide-geoportal-1-soa-dnr.hub.arcgis.com/datasets/DCCED::acs-population-characteristics-household-income-and-benefits/about)
+
+-   [ACS Population Characteristics: Race](https://statewide-geoportal-1-soa-dnr.hub.arcgis.com/datasets/DCCED::acs-population-characteristics-race/about)
+
+All datasets can be easily imported into ArcGIS Pro by clicking Download -\> Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -\> From Path and paste the URL.

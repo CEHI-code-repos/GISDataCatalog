@@ -1,13 +1,13 @@
 ---
 title: "Updates and New Hawaii Resources"
 author: "Ryan Zomorrodi"
-date: "2025-14-02"
+date: "2025-02-14"
 categories: [News]
 ---
 
 We've recently updated all our the datasets. A standout is the Climate & Economic Justice Screening Tool (CEJST), which has been taken down, but archived by the Environmental Data and Governance Initiative.
 
-We also have a new addition! Check out the [Hawaii tab](../../hawaii.qmd) for some Hawaii-specific data resources.
+We also have a new addition! Check out the [Hawaii tab](../../states/hawaii.qmd) for some Hawaii-specific data resources.
 
 If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
 

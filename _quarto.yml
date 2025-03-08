@@ -5,17 +5,29 @@ website:
   title: "Data Catalog"
   navbar:
     right:
+      - text: State-Specific
+        menu: 
+          - text: Alaska
+            href: states/alaska.qmd
+          - text: California
+            href: states/california.qmd
+          - text: Hawaii
+            href: states/hawaii.qmd
+          - text: Nebraska
+            href: states/nebraska.qmd
+          - text: New Jersey
+            href: states/new_jersey.qmd
+          - text: Vermont
+            href: states/vermont.qmd
+          - text: Virginia
+            href: states/virginia.qmd
       - text: Favorites
         href: five_favorites.qmd
-      - text: Hawaii
-        href: hawaii.qmd
       - updates.qmd
       - about.qmd
   search: false
 
-format:
-  html:
-    theme: flatly
+format: html
 
 
 
