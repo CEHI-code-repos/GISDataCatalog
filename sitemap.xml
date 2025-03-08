@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/index.html</loc>
-    <lastmod>2025-02-14T19:47:55.592Z</lastmod>
-  </url>
-  <url>
     <loc>https://CEHI-code-repos.github.io/GISDataCatalog/posts/feb25_update/index.html</loc>
-    <lastmod>2025-02-14T19:47:55.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/posts/welcome/index.html</loc>
-    <lastmod>2025-02-14T19:47:55.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/about.html</loc>
-    <lastmod>2025-02-14T19:47:55.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/updates.html</loc>
-    <lastmod>2025-02-14T19:47:55.594Z</lastmod>
-  </url>
-  <url>
-    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/hawaii.html</loc>
-    <lastmod>2025-02-14T19:47:55.592Z</lastmod>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
   </url>
   <url>
     <loc>https://CEHI-code-repos.github.io/GISDataCatalog/posts/additional_datasets/additional_datasets.html</loc>
-    <lastmod>2025-02-14T19:47:55.593Z</lastmod>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/updates.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
   </url>
   <url>
     <loc>https://CEHI-code-repos.github.io/GISDataCatalog/five_favorites.html</loc>
-    <lastmod>2025-02-14T19:47:55.592Z</lastmod>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/vermont.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/california.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/nebraska.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/hawaii.html</loc>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/index.html</loc>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/hawaii.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/new_jersey.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/alaska.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/states/virginia.html</loc>
+    <lastmod>2025-03-08T07:54:03.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/about.html</loc>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/posts/mar25_update/index.html</loc>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
+  </url>
+  <url>
+    <loc>https://CEHI-code-repos.github.io/GISDataCatalog/posts/welcome/index.html</loc>
+    <lastmod>2025-03-08T07:54:03.634Z</lastmod>
   </url>
 </urlset>
