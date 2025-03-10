@@ -28,10 +28,6 @@ format-links:
 
 {{< pagebreak >}}
 
-{{< include resources/us/_ceq-cejst.qmd >}}
-
-{{< pagebreak >}}
-
 {{< include resources/us/_cms-facilities.qmd >}}
 
 {{< pagebreak >}}
@@ -41,10 +37,6 @@ format-links:
 {{< pagebreak >}}
 
 {{< include resources/us/_cdc-hdsm.qmd >}}
-
-{{< pagebreak >}}
-
-{{< include resources/us/_cdc-eji.qmd >}}
 
 {{< pagebreak >}}
 
