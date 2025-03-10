@@ -91,13 +91,6 @@
     "text": "American Community Survey (ACS) 5-year Estimates\n\n\n\n\n\n\n\nDescription\n“The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)\n\n\nTime Frame\n5 Years; 2009 to 2022\n\n\nSpatial Scale\nNation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group\n\n\nFormat\nFeature Layers\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both boundaries and centroids. Topics may contain single or multiple ACS tables Layers can be accessed and used within your GIS workflows, for example, make a map about your community.\nIf you are looking for historical data, the census.gov website can be difficult to go through. Census Reporter can make it easier to find and download tables at various spatial scales."
   },
   {
-    "objectID": "index.html#climate-economic-justice-screening-tool-cejst",
-    "href": "index.html#climate-economic-justice-screening-tool-cejst",
-    "title": "National GIS Data",
-    "section": "Climate & Economic Justice Screening Tool (CEJST)",
-    "text": "Climate & Economic Justice Screening Tool (CEJST)\n\n\n\n\n\n\n\nDescription\nIdentifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nCensus Tract\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nCouncil on Environmental Quality (CEQ)\n\n\nOriginal Repository\nOriginal Website Backup: v2.0\n\n\nLiving Atlas\nv1.0 Justice 40 Tracts\n\n\n\nDetails\nThis dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burden is organized into the following categories:\n\nClimate Change\nEnergy\nHealth\nHousing\nLegacy Pollution\nTransportation\nWater and wastewater\nWorkforce development\n\nNote: This resource has been since taken down. An archive of the original website along with version two is being hosted by the Environmental Data and Governance Initiative."
-  },
-  {
     "objectID": "index.html#cms-approved-facilities---fqhc-rhc-cah",
     "href": "index.html#cms-approved-facilities---fqhc-rhc-cah",
     "title": "National GIS Data",
@@ -117,13 +110,6 @@
     "title": "National GIS Data",
     "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
     "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
-  },
-  {
-    "objectID": "index.html#environmental-justice-index-eji",
-    "href": "index.html#environmental-justice-index-eji",
-    "title": "National GIS Data",
-    "section": "Environmental Justice Index (EJI)",
-    "text": "Environmental Justice Index (EJI)\n\n\n\n\n\n\n\nDescription\nA list of all the measures of environmental justice in the United States. This helps communities find and fix environmental injustices, with a focus on vulnerable groups that are gripped by health risks in the environment.\n\n\nTime Frame\nYear; 2022 & 2024\n\n\nSpatial Scale\nNation, State, County, and Census Tract\n\n\nFormat\nCSV and Geodatabase\n\n\nSource\nCenters of Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe EJI is an aggregate measure of environmental burden that incorporates data from the Census Bureau, Environmenatal Protection Agency, Mine Safety and Health Administation and Centers of Disease Control and Prevention. The index measure is broken down into the modules: Environmental Burden, Social Vulnerability, and Health Vulnerability which are formed by 36 environmental, social, and health factors. The Environmental Burden and Social Vulnerability burden modules also form the Social-Environmental Ranking (SER), which aims to measure distributive and procedural environmental justice factors."
   },
   {
     "objectID": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
