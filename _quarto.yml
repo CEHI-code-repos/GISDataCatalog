@@ -3,9 +3,10 @@ project:
 
 website:
   title: "Data Catalog"
+  favicon: logo.png
   navbar:
     right:
-      - text: State-Specific
+      - text: State-Specific Resources
         menu: 
           - text: Alaska
             href: states/alaska.qmd
@@ -25,7 +26,13 @@ website:
         href: five_favorites.qmd
       - updates.qmd
       - about.qmd
-  search: false
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/CEHI-code-repos/GISDataCatalog
+          - text: Report an Issue
+            href: https://github.com/CEHI-code-repos/GISDataCatalog/issues
 
 format: html
 
