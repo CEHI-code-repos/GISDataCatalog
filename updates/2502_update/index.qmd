@@ -5,7 +5,7 @@ date: "2025-02-14"
 categories: [News]
 ---
 
-We've recently updated all our the datasets. A standout is the Climate & Economic Justice Screening Tool (CEJST), which has been taken down, but archived by the Environmental Data and Governance Initiative.
+We've recently updated all our the datasets.
 
 We also have a new addition! Check out the [Hawaii tab](../../states/hawaii.qmd) for some Hawaii-specific data resources.
 

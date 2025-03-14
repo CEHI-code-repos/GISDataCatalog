@@ -24,7 +24,7 @@ website:
             href: states/virginia.qmd
       - text: Favorites
         href: five_favorites.qmd
-      - updates.qmd
+      - updates/index.qmd
       - about.qmd
     tools:
       - icon: github
