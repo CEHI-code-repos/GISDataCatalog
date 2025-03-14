@@ -1,14 +1,14 @@
 ## Multidimensional Deprivation Index (MDI)
 
-|                         |                                                                                                                                                                              |
-|-----------------|-------------------------------------------------------|
-| **Description**         | Measure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey                                                          |
-| **Time Frame**          | Mixed; 2010 to 2019; 2017                                                                                                                                                    |
-| **Spatial Scale**       | State and County                                                                                                                                                             |
-| **Format**              | Shapefile                                                                                                                                                                    |
-| **Source**              | US Census Bureau                                                                                                                                                             |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | "The Multidimensional Deprivation Index (MDI) is a new research measure intended to complement, not replace, the Official Poverty Measure or Supplemental Poverty Measure. The MDI has six dimensions: standard of living, education, health, economic security, housing quality, and neighborhood quality. This report presents estimates of poverty using the official definition of poverty and estimates of deprivation using the MDI based on information collected primarily in the American Community Survey." |
+| **Time Frame** | Mixed; 2010 to 2019; 2017 |
+| **Spatial Scale** | State and County |
+| **Format** | Shapefile |
+| **Source** | US Census Bureau |
 | **Original Repository** | [2010 to 2019](https://www.census.gov/topics/income-poverty/poverty/about/related-sites/rates.html) [2017](https://www.census.gov/library/publications/2019/acs/acs-40.html) |
-| **Living Atlas**        | N/A                                                                                                                                                                          |
+| **Living Atlas** | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 

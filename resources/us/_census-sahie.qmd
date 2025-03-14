@@ -13,14 +13,4 @@
 : {tbl-colwidths="\[20,80\]"}
 
 **Details**\
-SAHIE estimates are available for several demographic groups: 
-
--   Age Groups
-
--   Levels of income
-
--   Race and ethnicity (in states)
-
--   Gender
-
-These estimates aid in identifying regions with a significant number of individuals without health insurance coverage.
+SAHIE estimates are available for several demographic groups. These estimates aid in identifying regions with a significant number of individuals without health insurance coverage.

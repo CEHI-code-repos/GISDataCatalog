@@ -13,7 +13,7 @@
 : {tbl-colwidths="\[20,80\]"}
 
 **Details**\
-Offers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding...
+Offers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding...
 
 -   Prevalence
 -   Risk Factors
