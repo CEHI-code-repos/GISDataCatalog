@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Naiya Vora">
-<meta name="dcterms.date" content="2024-07-23">
 
-<title>New Datasets Added – Data Catalog</title>
+<title>Updates – Data Catalog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-79a4583aa955d86f69120ada34c09d10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-79a4583aa955d86f69120ada34c09d10.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,21 +69,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Data Catalog</span>
     </a>
   </div>
@@ -99,45 +157,45 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-state-specific-resources">    
         <li>
-    <a class="dropdown-item" href="../../states/alaska.html">
+    <a class="dropdown-item" href="../states/alaska.html">
  <span class="dropdown-text">Alaska</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/california.html">
+    <a class="dropdown-item" href="../states/california.html">
  <span class="dropdown-text">California</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/hawaii.html">
+    <a class="dropdown-item" href="../states/hawaii.html">
  <span class="dropdown-text">Hawaii</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/nebraska.html">
+    <a class="dropdown-item" href="../states/nebraska.html">
  <span class="dropdown-text">Nebraska</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/new_jersey.html">
+    <a class="dropdown-item" href="../states/new_jersey.html">
  <span class="dropdown-text">New Jersey</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/vermont.html">
+    <a class="dropdown-item" href="../states/vermont.html">
  <span class="dropdown-text">Vermont</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../states/virginia.html">
+    <a class="dropdown-item" href="../states/virginia.html">
  <span class="dropdown-text">Virginia</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../five_favorites.html"> 
+    <a class="nav-link" href="../five_favorites.html"> 
 <span class="menu-text">Favorites</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../updates.html"> 
+    <a class="nav-link active" href="../updates/index.html" aria-current="page"> 
 <span class="menu-text">Updates</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -165,60 +223,176 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">New Datasets Added</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">News</div>
-              </div>
-                  </div>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Updates</h1>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Naiya Vora </p>
-            </div>
-    </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 23, 2024</p>
-      </div>
-    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TmV3cw==">News <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
-<p>We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:</p>
-<ul>
-<li><p><strong>Environmental Justice Index (EJI)</strong></p></li>
-<li><p><strong>County Health Rankings &amp; Roadmaps</strong></p></li>
-<li><p><strong>Small Area Health Insurance Estimates (SAHIE) Program</strong></p></li>
-<li><p><strong>Small Area Income and Poverty Estimates (SAIPE) Program</strong></p></li>
-<li><p><strong>Methodology &amp; Data - Climate &amp; Economic Justice Screening Tool</strong></p></li>
-</ul>
-<p>If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (<a href="mailto:rzomor2@uic.edu">rzomor2@uic.edu</a>).</p>
-<p>Best, The CEHI Training Team</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="TmV3cw==" data-listing-date-sort="1741305600000" data-listing-file-modified-sort="1741980636773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
+<div class="thumbnail">
+<p><a href="../updates/2503_update/index.html" class="no-external"></a></p><a href="../updates/2503_update/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../updates/2503_update/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../updates/2503_update/index.html" class="no-external">New State-Specific Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../updates/2503_update/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="../updates/2503_update/index.html" class="no-external">We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../updates/2503_update/index.html" class="no-external">
+<div class="listing-date">
+Mar 7, 2025
+</div>
+<div class="listing-author">
+Ryan Zomorrodi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="TmV3cw==" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1741980636773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="thumbnail">
+<p><a href="../updates/2502_update/index.html" class="no-external"></a></p><a href="../updates/2502_update/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../updates/2502_update/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../updates/2502_update/index.html" class="no-external">Updates and New Hawaii Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../updates/2502_update/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="../updates/2502_update/index.html" class="no-external">We’ve recently updated all our the datasets.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../updates/2502_update/index.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2025
+</div>
+<div class="listing-author">
+Ryan Zomorrodi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="TmV3cw==" data-listing-date-sort="1721692800000" data-listing-file-modified-sort="1741980636773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="thumbnail">
+<p><a href="../updates/2407_update/index.html" class="no-external"></a></p><a href="../updates/2407_update/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../updates/2407_update/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../updates/2407_update/index.html" class="no-external">New Datasets Added</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../updates/2407_update/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="../updates/2407_update/index.html" class="no-external">We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../updates/2407_update/index.html" class="no-external">
+<div class="listing-date">
+Jul 23, 2024
+</div>
+<div class="listing-author">
+Naiya Vora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="TmV3cw==" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1741980636773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="thumbnail">
+<p><a href="../updates/welcome/index.html" class="no-external"></a></p><a href="../updates/welcome/index.html" class="no-external">
+<p><img loading="lazy" src="../updates/welcome/standard_logo_1_09_outlines.png" class="thumbnail-image"></p>
+</a><p><a href="../updates/welcome/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../updates/welcome/index.html" class="no-external">Welcome to the Data Catalog</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../updates/welcome/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TmV3cw=='); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="../updates/welcome/index.html" class="no-external">Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../updates/welcome/index.html" class="no-external">
+<div class="listing-date">
+Feb 19, 2024
+</div>
+<div class="listing-author">
+Ryan Zomorrodi
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

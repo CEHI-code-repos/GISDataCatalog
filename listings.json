@@ -1,11 +1,11 @@
 [
   {
-    "listing": "/updates.html",
+    "listing": "/updates/index.html",
     "items": [
-      "/posts/mar25_update/index.html",
-      "/posts/feb25_update/index.html",
-      "/posts/additional_datasets/additional_datasets.html",
-      "/posts/welcome/index.html"
+      "/updates/2503_update/index.html",
+      "/updates/2502_update/index.html",
+      "/updates/2407_update/index.html",
+      "/updates/welcome/index.html"
     ]
   }
 ]

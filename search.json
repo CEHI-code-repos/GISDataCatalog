@@ -1,21 +1,21 @@
 [
   {
-    "objectID": "posts/feb25_update/index.html",
-    "href": "posts/feb25_update/index.html",
+    "objectID": "updates/welcome/index.html",
+    "href": "updates/welcome/index.html",
+    "title": "Welcome to the Data Catalog",
+    "section": "",
+    "text": "Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)\nBest,\nThe CEHI Training Team"
+  },
+  {
+    "objectID": "updates/2502_update/index.html",
+    "href": "updates/2502_update/index.html",
     "title": "Updates and New Hawaii Resources",
     "section": "",
-    "text": "We’ve recently updated all our the datasets. A standout is the Climate & Economic Justice Screening Tool (CEJST), which has been taken down, but archived by the Environmental Data and Governance Initiative.\nWe also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+    "text": "We’ve recently updated all our the datasets.\nWe also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
-    "objectID": "posts/additional_datasets/additional_datasets.html",
-    "href": "posts/additional_datasets/additional_datasets.html",
-    "title": "New Datasets Added",
-    "section": "",
-    "text": "We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:\n\nEnvironmental Justice Index (EJI)\nCounty Health Rankings & Roadmaps\nSmall Area Health Insurance Estimates (SAHIE) Program\nSmall Area Income and Poverty Estimates (SAIPE) Program\nMethodology & Data - Climate & Economic Justice Screening Tool\n\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
-  },
-  {
-    "objectID": "updates.html",
-    "href": "updates.html",
+    "objectID": "updates/index.html",
+    "href": "updates/index.html",
     "title": "Updates",
     "section": "",
     "text": "New State-Specific Resources\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates and New Hawaii Resources\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew Datasets Added\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\n\nNo matching items"
@@ -32,7 +32,7 @@
     "href": "five_favorites.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
     "title": "Five Favorite Datasets",
     "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
-    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
   },
   {
     "objectID": "five_favorites.html#mapping-medicare-disparities",
@@ -109,7 +109,7 @@
     "href": "index.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
     "title": "National GIS Data",
     "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
-    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by age, race/ethnicity, and gender. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
   },
   {
     "objectID": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
@@ -137,7 +137,7 @@
     "href": "index.html#multidimensional-deprivation-index-mdi",
     "title": "National GIS Data",
     "section": "Multidimensional Deprivation Index (MDI)",
-    "text": "Multidimensional Deprivation Index (MDI)\n\n\n\n\n\n\n\nDescription\nMeasure of an area’s social determinants of health status, or “deprivation,” based on the American Community Survey\n\n\nTime Frame\nMixed; 2010 to 2019; 2017\n\n\nSpatial Scale\nState and County\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\n2010 to 2019 2017\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nMDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:\n\nNeighborhood Quality\nStandard of Living\nEducation\nHealth\nEconomic Security\nHousing Quality\n\nCannot map by individual dimension."
+    "text": "Multidimensional Deprivation Index (MDI)\n\n\n\n\n\n\n\nDescription\n“The Multidimensional Deprivation Index (MDI) is a new research measure intended to complement, not replace, the Official Poverty Measure or Supplemental Poverty Measure. The MDI has six dimensions: standard of living, education, health, economic security, housing quality, and neighborhood quality. This report presents estimates of poverty using the official definition of poverty and estimates of deprivation using the MDI based on information collected primarily in the American Community Survey.”\n\n\nTime Frame\nMixed; 2010 to 2019; 2017\n\n\nSpatial Scale\nState and County\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\n2010 to 2019 2017\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nMDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:\n\nNeighborhood Quality\nStandard of Living\nEducation\nHealth\nEconomic Security\nHousing Quality\n\nCannot map by individual dimension."
   },
   {
     "objectID": "index.html#population-level-analysis-and-community-estimates-places",
@@ -165,7 +165,7 @@
     "href": "index.html#small-area-health-insurance-estimate-sahie-program",
     "title": "National GIS Data",
     "section": "Small Area Health Insurance Estimate (SAHIE) Program",
-    "text": "Small Area Health Insurance Estimate (SAHIE) Program\n\n\n\n\n\n\n\nDescription\nOffers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation.\n\n\nTime Frame\nMixed; 2000, 2001, 2005 to 2007, 2008 to 2022\n\n\nSpatial Scale\nState and County\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nSAHIE estimates are available for several demographic groups: \n\nAge Groups\nLevels of income\nRace and ethnicity (in states)\nGender\n\nThese estimates aid in identifying regions with a significant number of individuals without health insurance coverage."
+    "text": "Small Area Health Insurance Estimate (SAHIE) Program\n\n\n\n\n\n\n\nDescription\nOffers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation.\n\n\nTime Frame\nMixed; 2000, 2001, 2005 to 2007, 2008 to 2022\n\n\nSpatial Scale\nState and County\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nSAHIE estimates are available for several demographic groups. These estimates aid in identifying regions with a significant number of individuals without health insurance coverage."
   },
   {
     "objectID": "index.html#small-area-income-and-poverty-estimates-saipe-program",
@@ -231,17 +231,17 @@
     "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
   },
   {
-    "objectID": "posts/mar25_update/index.html",
-    "href": "posts/mar25_update/index.html",
+    "objectID": "updates/2503_update/index.html",
+    "href": "updates/2503_update/index.html",
     "title": "New State-Specific Resources",
     "section": "",
-    "text": "We have added state specific resoruces for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+    "text": "We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome to the Data Catalog",
+    "objectID": "updates/2407_update/index.html",
+    "href": "updates/2407_update/index.html",
+    "title": "New Datasets Added",
     "section": "",
-    "text": "Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)\nBest,\nThe CEHI Training Team"
+    "text": "We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:\n\nEnvironmental Justice Index (EJI)\nCounty Health Rankings & Roadmaps\nSmall Area Health Insurance Estimates (SAHIE) Program\nSmall Area Income and Poverty Estimates (SAIPE) Program\nMethodology & Data - Climate & Economic Justice Screening Tool\n\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   }
 ]
