@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "updates/welcome/index.html",
-    "href": "updates/welcome/index.html",
-    "title": "Welcome to the Data Catalog",
+    "objectID": "updates/2505_update/index.html",
+    "href": "updates/2505_update/index.html",
+    "title": "New National Dataset Added",
     "section": "",
-    "text": "Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)\nBest,\nThe CEHI Training Team"
+    "text": "Our list of National GIS Data has a new addition: the U.S. Department of Agriculture County Typology Codes. U.S. Department of Agriculture County Typology Codes was just updated early year, and it may be of interest to you if you are looking for economic and demographic data on nonmetro counties!\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+  },
+  {
+    "objectID": "updates/2503_update/index.html",
+    "href": "updates/2503_update/index.html",
+    "title": "New State-Specific Resources",
+    "section": "",
+    "text": "We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
     "objectID": "updates/2502_update/index.html",
@@ -14,11 +21,39 @@
     "text": "We’ve recently updated all our the datasets.\nWe also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
-    "objectID": "updates/index.html",
-    "href": "updates/index.html",
-    "title": "Updates",
+    "objectID": "states/virginia.html#virginia-gis-clearinghouse",
+    "href": "states/virginia.html#virginia-gis-clearinghouse",
+    "title": "Virginia-Specific Data Resources",
+    "section": "Virginia GIS Clearinghouse",
+    "text": "Virginia GIS Clearinghouse\n\n\n\n\n\n\n\nDescription\nThe Virginia GIS Clearinghouse maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nVirginia Department of Emergency Management\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Virginia GIS Clearinghouse includes many health-related datasets like:\n\nVirginia Hospitals\nVirginia Administrative Boundaries\nVirginia Transit Routes & Stops GTFS\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL.\nThere is also a custom locator, which can be used to conduct geocoding within the state."
+  },
+  {
+    "objectID": "states/alaska.html#state-of-alaska-geoportal",
+    "href": "states/alaska.html#state-of-alaska-geoportal",
+    "title": "Alaska-Specific Data Resources",
+    "section": "State of Alaska Geoportal",
+    "text": "State of Alaska Geoportal\n\n\n\n\n\n\n\nDescription\nThe State of Alaska Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Alaska\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe State of Alaska Geoportal includes many demographic datasets:\n\nACS Population Characteristics: Family Income and Benefits - Borough\nACS Population Characteristics: Housing\nACS Population Characteristics: Household Income and Benefits\nACS Population Characteristics: Race\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "states/nebraska.html#nebraskamap",
+    "href": "states/nebraska.html#nebraskamap",
+    "title": "Nebraska-Specific Data Resources",
+    "section": "NebraskaMap",
+    "text": "NebraskaMap\n\n\n\n\n\n\n\nDescription\nThe NebrasksaMap maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNebraska Geographic Information Office\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe NebraskaMap includes many healthcare infrastructure datasets like:\n\nDHHS Rural Health Clinics\nDHHS Hospitals\nDHHS Assisted Living Facilities\nDHHS Long Term Care Facilities\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "states/california.html#california-state-geoportal",
+    "href": "states/california.html#california-state-geoportal",
+    "title": "California-Specific Data Resources",
+    "section": "California State Geoportal",
+    "text": "California State Geoportal\n\n\n\n\n\n\n\nDescription\nThe California State Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, education, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nCalifornia Department of Technology\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe California State Geoportal includes several public health-relevant datasets:\n\nCalifornia Public Schools and Districts Map\nCalEnviroScreen 4.0 Results\nState Highway Network Lines | California State Geoportal\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "New State-Specific Resources\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates and New Hawaii Resources\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew Datasets Added\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\n\nNo matching items"
+    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
   },
   {
     "objectID": "five_favorites.html#cms-approved-facilities---fqhc-rhc-cah",
@@ -56,27 +91,6 @@
     "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020, 2022\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Geodatabase\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020 2022\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
   },
   {
-    "objectID": "states/vermont.html#vermont-open-geodata-portal",
-    "href": "states/vermont.html#vermont-open-geodata-portal",
-    "title": "Vermont-Specific Data Resources",
-    "section": "Vermont Open Geodata Portal",
-    "text": "Vermont Open Geodata Portal\n\n\n\n\n\n\n\nDescription\nThe Vermont Open Geodata Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Vermont\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nVermont Health Districts\nVermont Hospital Service Areas\nVT Data 2020 Census County\nVT Data 2020 Census County Subdivision\nVT Data 2020 Census Tract\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "states/california.html#california-state-geoportal",
-    "href": "states/california.html#california-state-geoportal",
-    "title": "California-Specific Data Resources",
-    "section": "California State Geoportal",
-    "text": "California State Geoportal\n\n\n\n\n\n\n\nDescription\nThe California State Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, education, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nCalifornia Department of Technology\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe California State Geoportal includes several public health-relevant datasets:\n\nCalifornia Public Schools and Districts Map\nCalEnviroScreen 4.0 Results\nState Highway Network Lines | California State Geoportal\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "states/nebraska.html#nebraskamap",
-    "href": "states/nebraska.html#nebraskamap",
-    "title": "Nebraska-Specific Data Resources",
-    "section": "NebraskaMap",
-    "text": "NebraskaMap\n\n\n\n\n\n\n\nDescription\nThe NebrasksaMap maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNebraska Geographic Information Office\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe NebraskaMap includes many healthcare infrastructure datasets like:\n\nDHHS Rural Health Clinics\nDHHS Hospitals\nDHHS Assisted Living Facilities\nDHHS Long Term Care Facilities\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
     "objectID": "index.html#cities",
     "href": "index.html#cities",
     "title": "National GIS Data",
@@ -103,6 +117,13 @@
     "title": "National GIS Data",
     "section": "County Health Rankings & Roadmaps",
     "text": "County Health Rankings & Roadmaps\n\n\n\n\n\n\n\nDescription\nProvides information on health outcomes and health factors for all 50 states\n\n\nTime Frame\nYear; 2010 to 2024\n\n\nSpatial Scale\nCounty\n\n\nFormat\nCSV and Shapefiles\n\n\nSource\nRobert Wood Johnson Foundation and the University of Wisconsin Population Health Initiative\n\n\nOriginal Repository\n2010 to 2022 2023 or 2024\n\n\nLiving Atlas\n2018 2019 2020 2021 2022 2023 2024\n\n\n\nDetails\nThis dataset offers county level estimates of health outcomes and risk factors. Estimates help identify ares requiring improvement and guide the creation and use of effective, focused health interventions. As a result of the difficulty in finding local intervention effects, users should be careful when using these figures to judge programs or policies."
+  },
+  {
+    "objectID": "index.html#county-typology-codes",
+    "href": "index.html#county-typology-codes",
+    "title": "National GIS Data",
+    "section": "County Typology Codes",
+    "text": "County Typology Codes\n\n\n\n\n\n\n\nDescription\nThe U.S. Department of Agriculture Economic Research Service “County Typology Codes contains a set of Economic Typology codes based on the industrial composition of nonmetropolitan (nonmetro) counties and a set of Demographic Typology Codes based on demographic characteristics of interest to rural policymakers and researchers.”\n\n\nTime Frame\nYear; 1979, 1986, 1989, 2004, 2015, 2025\n\n\nSpatial Scale\nCounty\n\n\nFormat\nCSV and XLXS\n\n\nSource\nU.S. Department of Agriculture (USDA)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nNA\n\n\n\nDetails\nEconomic Typology Code designations include:\n\nHigh Farming\nHigh Mining\nHigh Manufacturing\nHigh Government\nNonspecialized\nIndustry Dependence\n\nDemographic Typology Code designations include:\n\nLow Post-SecondaryEducation\nLow Employment\nPopulation Loss\nHousing Stress\nRetirement Destination\nPersistent Poverty"
   },
   {
     "objectID": "index.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
@@ -210,32 +231,11 @@
     "text": "NJGIN Open Data Portal\n\n\n\n\n\n\n\nDescription\nThe NJGIN Open Data Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNew Jersey Office of GIS\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nAcute Care Hospitals\nLong Term Care Facilities\nOverburdened Communities under the New Jersey Environmental Justice Law 2021\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
   },
   {
-    "objectID": "states/alaska.html#state-of-alaska-geoportal",
-    "href": "states/alaska.html#state-of-alaska-geoportal",
-    "title": "Alaska-Specific Data Resources",
-    "section": "State of Alaska Geoportal",
-    "text": "State of Alaska Geoportal\n\n\n\n\n\n\n\nDescription\nThe State of Alaska Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Alaska\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe State of Alaska Geoportal includes many demographic datasets:\n\nACS Population Characteristics: Family Income and Benefits - Borough\nACS Population Characteristics: Housing\nACS Population Characteristics: Household Income and Benefits\nACS Population Characteristics: Race\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "states/virginia.html#virginia-gis-clearinghouse",
-    "href": "states/virginia.html#virginia-gis-clearinghouse",
-    "title": "Virginia-Specific Data Resources",
-    "section": "Virginia GIS Clearinghouse",
-    "text": "Virginia GIS Clearinghouse\n\n\n\n\n\n\n\nDescription\nThe Virginia GIS Clearinghouse maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nVirginia Department of Emergency Management\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Virginia GIS Clearinghouse includes many health-related datasets like:\n\nVirginia Hospitals\nVirginia Administrative Boundaries\nVirginia Transit Routes & Stops GTFS\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL.\nThere is also a custom locator, which can be used to conduct geocoding within the state."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
-  },
-  {
-    "objectID": "updates/2503_update/index.html",
-    "href": "updates/2503_update/index.html",
-    "title": "New State-Specific Resources",
-    "section": "",
-    "text": "We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+    "objectID": "states/vermont.html#vermont-open-geodata-portal",
+    "href": "states/vermont.html#vermont-open-geodata-portal",
+    "title": "Vermont-Specific Data Resources",
+    "section": "Vermont Open Geodata Portal",
+    "text": "Vermont Open Geodata Portal\n\n\n\n\n\n\n\nDescription\nThe Vermont Open Geodata Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Vermont\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nVermont Health Districts\nVermont Hospital Service Areas\nVT Data 2020 Census County\nVT Data 2020 Census County Subdivision\nVT Data 2020 Census Tract\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
   },
   {
     "objectID": "updates/2407_update/index.html",
@@ -243,5 +243,19 @@
     "title": "New Datasets Added",
     "section": "",
     "text": "We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:\n\nEnvironmental Justice Index (EJI)\nCounty Health Rankings & Roadmaps\nSmall Area Health Insurance Estimates (SAHIE) Program\nSmall Area Income and Poverty Estimates (SAIPE) Program\nMethodology & Data - Climate & Economic Justice Screening Tool\n\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+  },
+  {
+    "objectID": "updates/index.html",
+    "href": "updates/index.html",
+    "title": "Updates",
+    "section": "",
+    "text": "New National Dataset Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew State-Specific Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates and New Hawaii Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew Datasets Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "updates/welcome/index.html",
+    "href": "updates/welcome/index.html",
+    "title": "Welcome to the Data Catalog",
+    "section": "",
+    "text": "Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)\nBest,\nThe CEHI Training Team"
   }
 ]
