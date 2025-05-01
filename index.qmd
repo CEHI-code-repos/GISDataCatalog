@@ -36,6 +36,10 @@ format-links:
 
 {{< pagebreak >}}
 
+{{< include resources/us/_usda_ers-ctc.qmd >}}
+
+{{< pagebreak >}}
+
 {{< include resources/us/_cdc-hdsm.qmd >}}
 
 {{< pagebreak >}}

@@ -1,0 +1,12 @@
+---
+title: "New National Dataset Added"
+author: "Ryan Zomorrodi"
+date: "2025-05-01"
+categories: [News]
+---
+
+Our list of National GIS Data has a new addition: the U.S. Department of Agriculture County Typology Codes. U.S. Department of Agriculture County Typology Codes was just updated early year, and it may be of interest to you if you are looking for economic and demographic data on nonmetro counties!
+
+If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
+
+Best, The CEHI Training Team
