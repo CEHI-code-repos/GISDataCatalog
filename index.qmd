@@ -48,6 +48,10 @@ format-links:
 
 {{< pagebreak >}}
 
+{{< include resources/us/_rafi_gga.qmd >}}
+
+{{< pagebreak >}}
+
 {{< include resources/us/_ihs-facilities.qmd >}}
 
 {{< pagebreak >}}

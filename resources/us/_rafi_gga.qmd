@@ -1,0 +1,18 @@
+## Grocery Gap Atlas
+
+|  |  |
+|----------------|--------------------------------------------------------|
+| **Description** | The Grocery Gap Atlas produces food access and market concentration estimates for grocery stores. |
+| **Time Frame** | Year; 2023 |
+| **Spatial Scale** | Tract |
+| **Format** | CSV and XLXS |
+| **Source** | Rural Advancement Foundation International-USA (RAFI-USA) and the Open Spatial Lab at the Data Science Institute at the University of Chicago |
+| **Original Repository** | [2023](https://grocerygapatlas.rafiusa.org/data) |
+| **Living Atlas** | N/A |
+
+: {tbl-colwidths="\[20,80\]"}
+
+**Details**\
+This dataset offers tract level estimates of food access and market concentration. Food access is using a gravity model with a floating catchment area (FCA) and market concentration is calculated using the Herfindahl-Hirschman Index (HHI). 
+
+**NOTE**: Food access is calculated using euclidian distance. Service areas for grocery stores are calculated using "distance ranges of 5 to 20 minutes driving time with average area traffic, based on reported ranges of how far people are willing to travel in the USDA FoodAPS survey".
