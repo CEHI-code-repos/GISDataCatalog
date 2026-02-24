@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "updates/2505_update/index.html",
-    "href": "updates/2505_update/index.html",
-    "title": "New National Dataset Added",
-    "section": "",
-    "text": "Our list of National GIS Data has a new addition: the U.S. Department of Agriculture County Typology Codes. U.S. Department of Agriculture County Typology Codes was just updated early year, and it may be of interest to you if you are looking for economic and demographic data on nonmetro counties!\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
-  },
-  {
-    "objectID": "updates/2503_update/index.html",
-    "href": "updates/2503_update/index.html",
-    "title": "New State-Specific Resources",
-    "section": "",
-    "text": "We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
-  },
-  {
-    "objectID": "updates/2502_update/index.html",
-    "href": "updates/2502_update/index.html",
-    "title": "Updates and New Hawaii Resources",
-    "section": "",
-    "text": "We’ve recently updated all our the datasets.\nWe also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
-  },
-  {
-    "objectID": "states/virginia.html#virginia-gis-clearinghouse",
-    "href": "states/virginia.html#virginia-gis-clearinghouse",
-    "title": "Virginia-Specific Data Resources",
-    "section": "Virginia GIS Clearinghouse",
-    "text": "Virginia GIS Clearinghouse\n\n\n\n\n\n\n\nDescription\nThe Virginia GIS Clearinghouse maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nVirginia Department of Emergency Management\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Virginia GIS Clearinghouse includes many health-related datasets like:\n\nVirginia Hospitals\nVirginia Administrative Boundaries\nVirginia Transit Routes & Stops GTFS\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL.\nThere is also a custom locator, which can be used to conduct geocoding within the state."
-  },
-  {
-    "objectID": "states/alaska.html#state-of-alaska-geoportal",
-    "href": "states/alaska.html#state-of-alaska-geoportal",
-    "title": "Alaska-Specific Data Resources",
-    "section": "State of Alaska Geoportal",
-    "text": "State of Alaska Geoportal\n\n\n\n\n\n\n\nDescription\nThe State of Alaska Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Alaska\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe State of Alaska Geoportal includes many demographic datasets:\n\nACS Population Characteristics: Family Income and Benefits - Borough\nACS Population Characteristics: Housing\nACS Population Characteristics: Household Income and Benefits\nACS Population Characteristics: Race\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "states/nebraska.html#nebraskamap",
-    "href": "states/nebraska.html#nebraskamap",
-    "title": "Nebraska-Specific Data Resources",
-    "section": "NebraskaMap",
-    "text": "NebraskaMap\n\n\n\n\n\n\n\nDescription\nThe NebrasksaMap maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNebraska Geographic Information Office\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe NebraskaMap includes many healthcare infrastructure datasets like:\n\nDHHS Rural Health Clinics\nDHHS Hospitals\nDHHS Assisted Living Facilities\nDHHS Long Term Care Facilities\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "states/california.html#california-state-geoportal",
-    "href": "states/california.html#california-state-geoportal",
-    "title": "California-Specific Data Resources",
-    "section": "California State Geoportal",
-    "text": "California State Geoportal\n\n\n\n\n\n\n\nDescription\nThe California State Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, education, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nCalifornia Department of Technology\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe California State Geoportal includes several public health-relevant datasets:\n\nCalifornia Public Schools and Districts Map\nCalEnviroScreen 4.0 Results\nState Highway Network Lines | California State Geoportal\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
-  },
-  {
     "objectID": "five_favorites.html#cms-approved-facilities---fqhc-rhc-cah",
     "href": "five_favorites.html#cms-approved-facilities---fqhc-rhc-cah",
     "title": "Five Favorite Datasets",
@@ -67,7 +11,7 @@
     "href": "five_favorites.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
     "title": "Five Favorite Datasets",
     "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
-    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2021-2023\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
   },
   {
     "objectID": "five_favorites.html#mapping-medicare-disparities",
@@ -81,7 +25,7 @@
     "href": "five_favorites.html#population-level-analysis-and-community-estimates-places",
     "title": "Five Favorite Datasets",
     "section": "Population Level Analysis and Community Estimates (PLACES)",
-    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2024\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
+    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2025\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
   },
   {
     "objectID": "five_favorites.html#social-vulnerability-index-svi",
@@ -89,6 +33,62 @@
     "title": "Five Favorite Datasets",
     "section": "Social Vulnerability Index (SVI)",
     "text": "Social Vulnerability Index (SVI)\n\n\n\n\n\n\n\nDescription\nThe Social Vulnerability Index uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.\n\n\nTime Frame\nYear; 2000, 2010, 2014, 2016, 2018, 2020, 2022\n\n\nSpatial Scale\nCounty and Census Tract\n\n\nFormat\nCSV and Geodatabase\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\n2018 2020 2022\n\n\n\nDetails\nRanking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:\n\nHousing Type and Transportation\nHousehold Composition and Disability\nSocioeconomic Status\nMinority Status and Language\n\nCan also map by individual dimension."
+  },
+  {
+    "objectID": "updates/2505_update/index.html",
+    "href": "updates/2505_update/index.html",
+    "title": "New National Dataset Added",
+    "section": "",
+    "text": "Our list of National GIS Data has a new addition: the U.S. Department of Agriculture County Typology Codes. U.S. Department of Agriculture County Typology Codes was just updated early year, and it may be of interest to you if you are looking for economic and demographic data on nonmetro counties!\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+  },
+  {
+    "objectID": "updates/2502_update/index.html",
+    "href": "updates/2502_update/index.html",
+    "title": "Updates and New Hawaii Resources",
+    "section": "",
+    "text": "We’ve recently updated all our the datasets.\nWe also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
+  },
+  {
+    "objectID": "updates/index.html",
+    "href": "updates/index.html",
+    "title": "Updates",
+    "section": "",
+    "text": "New National Dataset Added + Updated prior datasets\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 24, 2026\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew National Dataset Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew State-Specific Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates and New Hawaii Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew Datasets Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website is a catalog of geospatial public health-related data put together by the Children’s Environmental Initiative training team. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)"
+  },
+  {
+    "objectID": "states/alaska.html#state-of-alaska-geoportal",
+    "href": "states/alaska.html#state-of-alaska-geoportal",
+    "title": "Alaska-Specific Data Resources",
+    "section": "State of Alaska Geoportal",
+    "text": "State of Alaska Geoportal\n\n\n\n\n\n\n\nDescription\nThe State of Alaska Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Alaska\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe State of Alaska Geoportal includes many demographic datasets:\n\nACS Population Characteristics: Family Income and Benefits - Borough\nACS Population Characteristics: Housing\nACS Population Characteristics: Household Income and Benefits\nACS Population Characteristics: Race\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "states/new_jersey.html#njgin-open-data-portal",
+    "href": "states/new_jersey.html#njgin-open-data-portal",
+    "title": "New Jersey-Specific Data Resources",
+    "section": "NJGIN Open Data Portal",
+    "text": "NJGIN Open Data Portal\n\n\n\n\n\n\n\nDescription\nThe NJGIN Open Data Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNew Jersey Office of GIS\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nAcute Care Hospitals\nLong Term Care Facilities\nOverburdened Communities under the New Jersey Environmental Justice Law 2021\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "states/hawaii.html#hawaii-statewide-gis-data-portal",
+    "href": "states/hawaii.html#hawaii-statewide-gis-data-portal",
+    "title": "Hawaii-Specific Data Resources",
+    "section": "Hawaii Statewide GIS Data Portal",
+    "text": "Hawaii Statewide GIS Data Portal\n\n\n\n\n\n\n\nDescription\nThe Hawaii Statewide GIS maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, climate, human health & safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nHawaii State Office of Planning and Sustainable Development\n\n\nOriginal Repository\nData Portal; Expanded Data Portal; Rest Services\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Hawaii Statewide GIS Portal includes many healthcare infrastructure datasets like:\n\nHospitals\nHospice Facilities\nAssisted Living Facilities\nHealth Professional Shortage Areas - Mental Health\n\nOr other important infrastructure like:\n\nCounty Parks\nState Parks\nPublic Schools\nPublic Libraries\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
+    "objectID": "states/hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
+    "href": "states/hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
+    "title": "Hawaii-Specific Data Resources",
+    "section": "University of Hawai’i at Manoa Library GIS Data Resource Guide",
+    "text": "University of Hawai’i at Manoa Library GIS Data Resource Guide\n\n\n\n\n\n\n\nDescription\nThe University of Hawai’i at Manoa hosts its own Data Catalog with links to various Hawaii-relevant data sources.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nUniversity of Hawai’i at Manoa Library\n\n\nOriginal Repository\nResource Guide\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe University of Hawai’i at Manoa Library GIS Data Resource Guide features Hawaii, Pacific, Asia, national, and international data sets, which are sorted by both geography and category.\nNote: A few of the resources listed are commercial data sources with restricted use."
   },
   {
     "objectID": "index.html#cities",
@@ -102,7 +102,7 @@
     "href": "index.html#american-community-survey-acs-5-year-estimates",
     "title": "National GIS Data",
     "section": "American Community Survey (ACS) 5-year Estimates",
-    "text": "American Community Survey (ACS) 5-year Estimates\n\n\n\n\n\n\n\nDescription\n“The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)\n\n\nTime Frame\n5 Years; 2009 to 2022\n\n\nSpatial Scale\nNation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group\n\n\nFormat\nFeature Layers\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both boundaries and centroids. Topics may contain single or multiple ACS tables Layers can be accessed and used within your GIS workflows, for example, make a map about your community.\nIf you are looking for historical data, the census.gov website can be difficult to go through. Census Reporter can make it easier to find and download tables at various spatial scales."
+    "text": "American Community Survey (ACS) 5-year Estimates\n\n\n\n\n\n\n\nDescription\n“The American Community Survey (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than $675 billion in federal and state funds are distributed each year.” (U.S Census Bureau)\n\n\nTime Frame\n5 Years; 2009 to 2024\n\n\nSpatial Scale\nNation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group\n\n\nFormat\nFeature Layers\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe Living Atlas hosts the current ACS 5-year estimates in a series of several features grouped by topic. Each topic is hosted as both boundaries and centroids. Topics may contain single or multiple ACS tables Layers can be accessed and used within your GIS workflows, for example, make a map about your community.\nIf you are looking for historical data, the census.gov website can be difficult to go through. Census Reporter can make it easier to find and download tables at various spatial scales."
   },
   {
     "objectID": "index.html#cms-approved-facilities---fqhc-rhc-cah",
@@ -116,7 +116,7 @@
     "href": "index.html#county-health-rankings-roadmaps",
     "title": "National GIS Data",
     "section": "County Health Rankings & Roadmaps",
-    "text": "County Health Rankings & Roadmaps\n\n\n\n\n\n\n\nDescription\nProvides information on health outcomes and health factors for all 50 states\n\n\nTime Frame\nYear; 2010 to 2024\n\n\nSpatial Scale\nCounty\n\n\nFormat\nCSV and Shapefiles\n\n\nSource\nRobert Wood Johnson Foundation and the University of Wisconsin Population Health Initiative\n\n\nOriginal Repository\n2010 to 2022 2023 or 2024\n\n\nLiving Atlas\n2018 2019 2020 2021 2022 2023 2024\n\n\n\nDetails\nThis dataset offers county level estimates of health outcomes and risk factors. Estimates help identify ares requiring improvement and guide the creation and use of effective, focused health interventions. As a result of the difficulty in finding local intervention effects, users should be careful when using these figures to judge programs or policies."
+    "text": "County Health Rankings & Roadmaps\n\n\n\n\n\n\n\nDescription\nProvides information on health outcomes and health factors for all 50 states\n\n\nTime Frame\nYear; 2010 to 2024\n\n\nSpatial Scale\nCounty\n\n\nFormat\nCSV and Shapefiles\n\n\nSource\nRobert Wood Johnson Foundation and the University of Wisconsin Population Health Initiative\n\n\nOriginal Repository\n2010 to 2023 2024 or 2025\n\n\nLiving Atlas\n2018 2019 to 2025\n\n\n\nDetails\nThis dataset offers county level estimates of health outcomes and risk factors. Estimates help identify ares requiring improvement and guide the creation and use of effective, focused health interventions. As a result of the difficulty in finding local intervention effects, users should be careful when using these figures to judge programs or policies."
   },
   {
     "objectID": "index.html#county-typology-codes",
@@ -130,21 +130,28 @@
     "href": "index.html#division-for-heart-disease-and-stroke-prevention---heart-disease-and-stroke-mortality",
     "title": "National GIS Data",
     "section": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality",
-    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2019-2021\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
+    "text": "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality\n\n\n\n\n\n\n\nDescription\nHeart Disease and Stoke Mortality\n\n\nTime Frame\nThree year average from 2005-2007 to 2021-2023\n\n\nSpatial Scale\nStates, Counties\n\n\nFormat\nTables\n\n\nSource\nCenters for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention\n\n\nOriginal Repository\nInteractive Data Atlas\n\n\nLiving Atlas\nAll Years\n\n\n\nDetails\nOffers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding…\n\nPrevalence\nRisk Factors\nSocial, Economic, Environmental variables\nDemographics\nHealth Care Delivery and Insurance\nHealth Care Costs"
   },
   {
     "objectID": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
     "href": "index.html#federally-qualified-health-center-service-delivery-and-look-alike-sites",
     "title": "National GIS Data",
     "section": "Federally Qualified Health Center Service Delivery and Look-Alike Sites",
-    "text": "Federally Qualified Health Center Service Delivery and Look-Alike Sites\n\n\n\n\n\n\n\nDescription\nList of federally-funded health centers that provide health services.\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nCSV with Address and X/Y\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHealth centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing."
+    "text": "Federally Qualified Health Center Service Delivery and Look-Alike Sites\n\n\n\n\n\n\n\nDescription\nList of federally-funded health centers that provide health services.\n\n\nTime Frame\nUpdated Daily; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nCSV with Address and X/Y\n\n\nSource\nHealth Resources & Services Administration (HRSA)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHealth centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing."
+  },
+  {
+    "objectID": "index.html#grocery-gap-atlas",
+    "href": "index.html#grocery-gap-atlas",
+    "title": "National GIS Data",
+    "section": "Grocery Gap Atlas",
+    "text": "Grocery Gap Atlas\n\n\n\n\n\n\n\nDescription\nThe Grocery Gap Atlas produces food access and market concentration estimates for grocery stores.\n\n\nTime Frame\nYear; 2023\n\n\nSpatial Scale\nTract\n\n\nFormat\nCSV and XLXS\n\n\nSource\nRural Advancement Foundation International-USA (RAFI-USA) and the Open Spatial Lab at the Data Science Institute at the University of Chicago\n\n\nOriginal Repository\n2023\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThis dataset offers tract level estimates of food access and market concentration. Food access is using a gravity model with a floating catchment area (FCA) and market concentration is calculated using the Herfindahl-Hirschman Index (HHI).\nNOTE: Food access is calculated using euclidian distance. Service areas for grocery stores are calculated using “distance ranges of 5 to 20 minutes driving time with average area traffic, based on reported ranges of how far people are willing to travel in the USDA FoodAPS survey”."
   },
   {
     "objectID": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
     "href": "index.html#healthcare-facilities-of-the-indian-health-service-ihs",
     "title": "National GIS Data",
     "section": "Healthcare Facilities of the Indian Health Service (IHS)",
-    "text": "Healthcare Facilities of the Indian Health Service (IHS)\n\n\n\n\n\n\n\nDescription\nPoint-level representation of the locations of IHS Facilities in the United States\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nIndian Health Service (IHS)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThe IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S."
+    "text": "Healthcare Facilities of the Indian Health Service (IHS)\n\n\n\n\n\n\n\nDescription\nPoint-level representation of the locations of IHS Facilities in the United States\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nPoint\n\n\nFormat\nFeature Service\n\n\nSource\nIndian Health Service (IHS)\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe IHS is an agency within the Department of Health and Human Services responsible for providing federal health services to American Indians and Alaska Natives. These services include hospitals, behavioral health facilities, health centers, dental clinics, health stations, Alaska Village Clinics and other services. The IHS is the principal federal health care provider and health advocate for Indian people, and its goal is to raise their health status to the highest possible level. The IHS provides a comprehensive health service delivery system for American Indians and Alaska Natives who are members of 566 federally recognized Tribes across the U.S."
   },
   {
     "objectID": "index.html#mapping-medicare-disparities",
@@ -165,28 +172,28 @@
     "href": "index.html#population-level-analysis-and-community-estimates-places",
     "title": "National GIS Data",
     "section": "Population Level Analysis and Community Estimates (PLACES)",
-    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2024\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
+    "text": "Population Level Analysis and Community Estimates (PLACES)\n\n\n\n\n\n\n\nDescription\nThe PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales\n\n\nTime Frame\nYear; 2019 to 2025\n\n\nSpatial Scale\nCounties, Places, ZCTAs, and Census Tracts\n\n\nFormat\nTables and Shapefiles\n\n\nSource\nCenters for Disease Control and Prevention (CDC)\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nCurrent\n\n\n\nDetails\nThis project reported city- and census tract-level data and used small area estimation methods to obtain 29 chronic disease measures for the United States.\nDataset includes estimates for 29 measures (definitions here):\n\nChronic Disease Related Health Outcomes (13)\nPrevention Measures (9)\nHealth Risk Behaviors (4)\nDisability (7)\nHealth Status (3)\n\nThese estimates can be used to identify emerging health problems and to inform development and implementation of effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations."
   },
   {
     "objectID": "index.html#rural-urban-commuting-area-ruca",
     "href": "index.html#rural-urban-commuting-area-ruca",
     "title": "National GIS Data",
     "section": "Rural-Urban Commuting Area (RUCA)",
-    "text": "Rural-Urban Commuting Area (RUCA)\n\n\n\n\n\n\n\nDescription\nThe rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level\n\n\nTime Frame\nMixed; 1990, 2000, and 2010 Decennial Census, 2006-10 ACS\n\n\nSpatial Scale\nCounty level representation of counties that are defined as PRCDAs/CHSDA\n\n\nFormat\nCSV with GEOIDs\n\n\nSource\nUS Department of Agriculture Economic Research Service\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences."
+    "text": "Rural-Urban Commuting Area (RUCA)\n\n\n\n\n\n\n\nDescription\nThe rural-urban commuting area (RUCA) codes classify U.S. census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level\n\n\nTime Frame\nYear; 1990, 2000, 2010, and 2020\n\n\nSpatial Scale\nCounty level representation of counties that are defined as PRCDAs/CHSDA\n\n\nFormat\nCSV with GEOIDs\n\n\nSource\nUS Department of Agriculture Economic Research Service\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences."
   },
   {
     "objectID": "index.html#shortage-areas-hpsas-and-muaps",
     "href": "index.html#shortage-areas-hpsas-and-muaps",
     "title": "National GIS Data",
     "section": "Shortage Areas (HPSAs and MUA/Ps)",
-    "text": "Shortage Areas (HPSAs and MUA/Ps)\n\n\n\n\n\n\n\nDescription\nFacility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps).\n\n\nTime Frame\nUpdated on Unknown Basis; Current\n\n\nSpatial Scale\nMixed (Point, Tract, County Subdivision, County)\n\n\nFormat\nShapefile and Feature Service\n\n\nSource\nHealth Resources & Services Administration\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities."
+    "text": "Shortage Areas (HPSAs and MUA/Ps)\n\n\n\n\n\n\n\nDescription\nFacility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps).\n\n\nTime Frame\nUpdated Daily; Current\n\n\nSpatial Scale\nMixed (Point, Tract, County Subdivision, County)\n\n\nFormat\nShapefile and Feature Service\n\n\nSource\nHealth Resources & Services Administration\n\n\nOriginal Repository\nCurrent\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nHRSA’s Bureau of Health Workforce (BHW) develops shortage designation criteria and uses them to decide whether or not a geographic area or population group is a Health Professional Shortage Area (HPSA), Medically Underserved Area (MUA), or Medically Underserved Population (MUP). For HPSAs, scores range from 1 to 25 for primary care and mental health, 1 to 26 for dental health. The higher the score, the greater the priority. HPSAs may have shortages of primary medical care, dental, or mental health providers; may be urban or rural areas; population groups; or medical or other public facilities."
   },
   {
     "objectID": "index.html#small-area-health-insurance-estimate-sahie-program",
     "href": "index.html#small-area-health-insurance-estimate-sahie-program",
     "title": "National GIS Data",
     "section": "Small Area Health Insurance Estimate (SAHIE) Program",
-    "text": "Small Area Health Insurance Estimate (SAHIE) Program\n\n\n\n\n\n\n\nDescription\nOffers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation.\n\n\nTime Frame\nMixed; 2000, 2001, 2005 to 2007, 2008 to 2022\n\n\nSpatial Scale\nState and County\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nSAHIE estimates are available for several demographic groups. These estimates aid in identifying regions with a significant number of individuals without health insurance coverage."
+    "text": "Small Area Health Insurance Estimate (SAHIE) Program\n\n\n\n\n\n\n\nDescription\nOffers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation.\n\n\nTime Frame\nMixed; 2000, 2001, 2005 to 2007, 2008 to 2023\n\n\nSpatial Scale\nState and County\n\n\nFormat\nCSV and Shapefile\n\n\nSource\nU.S. Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nSAHIE estimates are available for several demographic groups. These estimates aid in identifying regions with a significant number of individuals without health insurance coverage."
   },
   {
     "objectID": "index.html#small-area-income-and-poverty-estimates-saipe-program",
@@ -207,28 +214,21 @@
     "href": "index.html#tribal-census-tract-boundaries",
     "title": "National GIS Data",
     "section": "Tribal Census Tract Boundaries",
-    "text": "Tribal Census Tract Boundaries\n\n\n\n\n\n\n\nDescription\nPolygons representing individual tribal census tracts throughout the United States\n\n\nYears\nYear; 2007 to 2024\n\n\nSpatial Scale\nTribal Tract\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails:\nTribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.\nIf you would like attributes associated with these Tribal Census Tract Boundaries, you can visit https://data2.nhgis.org/main. Select Geographic levels -&gt; Native American/Alaskan/Hawaiian -&gt; Tribal Census Tracts. You can then select years, topics, and datasets to filter ACS Tables"
+    "text": "Tribal Census Tract Boundaries\n\n\n\n\n\n\n\nDescription\nPolygons representing individual tribal census tracts throughout the United States\n\n\nYears\nYear; 2007 to 2025\n\n\nSpatial Scale\nTribal Tract\n\n\nFormat\nShapefile\n\n\nSource\nUS Census Bureau\n\n\nOriginal Repository\nAll Years\n\n\nLiving Atlas\nN/A\n\n\n\nDetails:\nTribal census tracts are small statistical subdivisions of a reservation and off- reservation trust land. Their primary purpose is the same as census tracts: the presentation of statistical data. However, rather than nesting within a county, tribal census tracts nest within a single federally recognized American Indian area, providing coverage across all federally recognized American Indian reservations and off-reservation trust lands. Tribal census tracts have population criteria identical to county-based census tracts.\nIf you would like attributes associated with these Tribal Census Tract Boundaries, you can visit https://data2.nhgis.org/main. Select Geographic levels -&gt; Native American/Alaskan/Hawaiian -&gt; Tribal Census Tracts. You can then select years, topics, and datasets to filter ACS Tables"
   },
   {
-    "objectID": "states/hawaii.html#hawaii-statewide-gis-data-portal",
-    "href": "states/hawaii.html#hawaii-statewide-gis-data-portal",
-    "title": "Hawaii-Specific Data Resources",
-    "section": "Hawaii Statewide GIS Data Portal",
-    "text": "Hawaii Statewide GIS Data Portal\n\n\n\n\n\n\n\nDescription\nThe Hawaii Statewide GIS maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, climate, human health & safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nHawaii State Office of Planning and Sustainable Development\n\n\nOriginal Repository\nData Portal; Expanded Data Portal; Rest Services\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Hawaii Statewide GIS Portal includes many healthcare infrastructure datasets like:\n\nHospitals\nHospice Facilities\nAssisted Living Facilities\nHealth Professional Shortage Areas - Mental Health\n\nOr other important infrastructure like:\n\nCounty Parks\nState Parks\nPublic Schools\nPublic Libraries\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+    "objectID": "states/nebraska.html#nebraskamap",
+    "href": "states/nebraska.html#nebraskamap",
+    "title": "Nebraska-Specific Data Resources",
+    "section": "NebraskaMap",
+    "text": "NebraskaMap\n\n\n\n\n\n\n\nDescription\nThe NebrasksaMap maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNebraska Geographic Information Office\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe NebraskaMap includes many healthcare infrastructure datasets like:\n\nDHHS Rural Health Clinics\nDHHS Hospitals\nDHHS Assisted Living Facilities\nDHHS Long Term Care Facilities\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
   },
   {
-    "objectID": "states/hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
-    "href": "states/hawaii.html#university-of-hawaii-at-manoa-library-gis-data-resource-guide",
-    "title": "Hawaii-Specific Data Resources",
-    "section": "University of Hawai’i at Manoa Library GIS Data Resource Guide",
-    "text": "University of Hawai’i at Manoa Library GIS Data Resource Guide\n\n\n\n\n\n\n\nDescription\nThe University of Hawai’i at Manoa hosts its own Data Catalog with links to various Hawaii-relevant data sources.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nUniversity of Hawai’i at Manoa Library\n\n\nOriginal Repository\nResource Guide\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe University of Hawai’i at Manoa Library GIS Data Resource Guide features Hawaii, Pacific, Asia, national, and international data sets, which are sorted by both geography and category.\nNote: A few of the resources listed are commercial data sources with restricted use."
-  },
-  {
-    "objectID": "states/new_jersey.html#njgin-open-data-portal",
-    "href": "states/new_jersey.html#njgin-open-data-portal",
-    "title": "New Jersey-Specific Data Resources",
-    "section": "NJGIN Open Data Portal",
-    "text": "NJGIN Open Data Portal\n\n\n\n\n\n\n\nDescription\nThe NJGIN Open Data Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nNew Jersey Office of GIS\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nAcute Care Hospitals\nLong Term Care Facilities\nOverburdened Communities under the New Jersey Environmental Justice Law 2021\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+    "objectID": "states/virginia.html#virginia-gis-clearinghouse",
+    "href": "states/virginia.html#virginia-gis-clearinghouse",
+    "title": "Virginia-Specific Data Resources",
+    "section": "Virginia GIS Clearinghouse",
+    "text": "Virginia GIS Clearinghouse\n\n\n\n\n\n\n\nDescription\nThe Virginia GIS Clearinghouse maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nVirginia Department of Emergency Management\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Virginia GIS Clearinghouse includes many health-related datasets like:\n\nVirginia Hospitals\nVirginia Administrative Boundaries\nVirginia Transit Routes & Stops GTFS\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL.\nThere is also a custom locator, which can be used to conduct geocoding within the state."
   },
   {
     "objectID": "states/vermont.html#vermont-open-geodata-portal",
@@ -238,6 +238,13 @@
     "text": "Vermont Open Geodata Portal\n\n\n\n\n\n\n\nDescription\nThe Vermont Open Geodata Portal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, climate, health and public safety, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nState of Vermont\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe Vermont Open Geodata Portal includes many health-related datasets like:\n\nVermont Health Districts\nVermont Hospital Service Areas\nVT Data 2020 Census County\nVT Data 2020 Census County Subdivision\nVT Data 2020 Census Tract\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
   },
   {
+    "objectID": "states/california.html#california-state-geoportal",
+    "href": "states/california.html#california-state-geoportal",
+    "title": "California-Specific Data Resources",
+    "section": "California State Geoportal",
+    "text": "California State Geoportal\n\n\n\n\n\n\n\nDescription\nThe California State Geoportal maintains a comprehensive database of geospatial data. Data within the portal covers subjects such as administrative boundaries, demographics, education, health, infrastructure, and transportation.\n\n\nTime Frame\nVaries\n\n\nSpatial Scale\nVaries\n\n\nFormat\nVaries\n\n\nSource\nCalifornia Department of Technology\n\n\nOriginal Repository\nData Portal\n\n\nLiving Atlas\nN/A\n\n\n\nDetails\nThe California State Geoportal includes several public health-relevant datasets:\n\nCalifornia Public Schools and Districts Map\nCalEnviroScreen 4.0 Results\nState Highway Network Lines | California State Geoportal\n\nAll datasets can be easily imported into ArcGIS Pro by clicking Download -&gt; Data Source; Access. Copy the website URL and within ArcGIS Pro click on Add Data -&gt; From Path and paste the URL."
+  },
+  {
     "objectID": "updates/2407_update/index.html",
     "href": "updates/2407_update/index.html",
     "title": "New Datasets Added",
@@ -245,11 +252,11 @@
     "text": "We’ve recently added new datasets focused on health, socioeconomic factors, and environmental justice. The new additions include:\n\nEnvironmental Justice Index (EJI)\nCounty Health Rankings & Roadmaps\nSmall Area Health Insurance Estimates (SAHIE) Program\nSmall Area Income and Poverty Estimates (SAIPE) Program\nMethodology & Data - Climate & Economic Justice Screening Tool\n\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
-    "objectID": "updates/index.html",
-    "href": "updates/index.html",
-    "title": "Updates",
+    "objectID": "updates/2602_update/index.html",
+    "href": "updates/2602_update/index.html",
+    "title": "New National Dataset Added + Updated prior datasets",
     "section": "",
-    "text": "New National Dataset Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew State-Specific Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nUpdates and New Hawaii Resources\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nRyan Zomorrodi\n\n\n\n\n\n\n\n\n\n\n\n\nNew Datasets Added\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nNaiya Vora\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the Data Catalog\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nFeb 19, 2024\n\n\nRyan Zomorrodi\n\n\n\n\n\nNo matching items"
+    "text": "Our list of National GIS Data has a new addition: the Grocery Gap Atlas! It may be interesting to any of you who would like to look at access to food and corporate concentration of grocery markets.\nAll prior datasets have been updated with new years of data, if applicable.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   },
   {
     "objectID": "updates/welcome/index.html",
@@ -257,5 +264,12 @@
     "title": "Welcome to the Data Catalog",
     "section": "",
     "text": "Welcome to the data catalog! This website will serve as a resource to find geospatial public health-related data. We hope to update this website routinely and post updates when new data is published. If you notice any updates that have not been reflected yet or would like to add a resource to the data catalog, feel free to email Ryan Zomorrodi (rzomor2@uic.edu)\nBest,\nThe CEHI Training Team"
+  },
+  {
+    "objectID": "updates/2503_update/index.html",
+    "href": "updates/2503_update/index.html",
+    "title": "New State-Specific Resources",
+    "section": "",
+    "text": "We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.\nIf you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (rzomor2@uic.edu).\nBest, The CEHI Training Team"
   }
 ]

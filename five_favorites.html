@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8005f19492c3f21f75ba0c8f5852214a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5987747b8dec71252bcc1788bb737e71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-5987747b8dec71252bcc1788bb737e71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5987747b8dec71252bcc1788bb737e71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +85,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo">
+    <img src="./logo.png" alt="" class="navbar-logo light-content">
+    <img src="./logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Data Catalog</span>
@@ -178,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 1, 2025</p>
+        <p class="date-modified">February 24, 2026</p>
       </div>
     </div>
       
@@ -266,7 +272,7 @@ This is the “<a href="https://data.cms.gov/provider-characteristics/hospitals-
 </tr>
 <tr class="even">
 <td><strong>Time Frame</strong></td>
-<td>Three year average from 2005-2007 to 2019-2021</td>
+<td>Three year average from 2005-2007 to 2021-2023</td>
 </tr>
 <tr class="odd">
 <td><strong>Spatial Scale</strong></td>
@@ -363,7 +369,7 @@ Composed of multiple tools which display disparities through three views:</p>
 </tr>
 <tr class="even">
 <td><strong>Time Frame</strong></td>
-<td>Year; 2019 to 2024</td>
+<td>Year; 2019 to 2025</td>
 </tr>
 <tr class="odd">
 <td><strong>Spatial Scale</strong></td>
@@ -410,7 +416,7 @@ This project reported city- and census tract-level data and used small area esti
 <tbody>
 <tr class="odd">
 <td><strong>Description</strong></td>
-<td>The <a href="https://www.atsdr.cdc.gov/placeandhealth/svi/index.html">Social Vulnerability Index</a> uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.</td>
+<td>The <a href="https://www.atsdr.cdc.gov/place-health/php/svi/index.html">Social Vulnerability Index</a> uses 15 U.S. census variables to help local officials identify communities that may need support before, during, or after disasters.</td>
 </tr>
 <tr class="even">
 <td><strong>Time Frame</strong></td>
@@ -503,13 +509,14 @@ Ranking by social vulnerability. Can look at rank within a state or within the e
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
