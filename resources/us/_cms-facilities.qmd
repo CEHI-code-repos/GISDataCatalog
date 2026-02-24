@@ -1,14 +1,14 @@
 ## CMS Approved Facilities - FQHC, RHC, CAH
 
-|                         |                                                                                                                                                                                                                                   |
-|-----------------|-------------------------------------------------------|
-| **Description**         | This service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities. |
-| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                                                                                                 |
-| **Spatial Scale**       | Point                                                                                                                                                                                                                             |
-| **Format**              | Feature Service                                                                                                                                                                                                                   |
-| **Source**              | Health Resources & Services Administration (HRSA)                                                                                                                                                                                 |
-| **Original Repository** | [Current](https://gisportal.hrsa.gov/server/rest/services/HealthCareFacilities/CMSApprovedFacilities_FS/MapServer) ([Additional Information](https://data.hrsa.gov/maps/services))                                                |
-| **Living Atlas**        | N/A                                                                                                                                                                                                                               |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | This service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities. |
+| **Time Frame** | Updated on Unknown Basis; Current |
+| **Spatial Scale** | Point |
+| **Format** | Feature Service |
+| **Source** | Health Resources & Services Administration (HRSA) |
+| **Original Repository** | [Current](https://gisportal.hrsa.gov/server/rest/services/HealthCareFacilities/CMSApprovedFacilities_FS/MapServer) ([Additional Information](https://data.hrsa.gov/maps/services)) |
+| **Living Atlas** | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 

@@ -1,14 +1,14 @@
 ## Population Level Analysis and Community Estimates (PLACES)
 
-|                         |                                                                                                                                                                           |
-|-----------------|-------------------------------------------------------|
-| **Description**         | The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales |
-| **Time Frame**          | Year; 2019 to 2024                                                                                                                                                        |
-| **Spatial Scale**       | Counties, Places, ZCTAs, and Census Tracts                                                                                                                                |
-| **Format**              | Tables and Shapefiles                                                                                                                                                     |
-| **Source**              | Centers for Disease Control and Prevention (CDC)                                                                                                                          |
-| **Original Repository** | [All Years](https://data.cdc.gov/browse?category=500+Cities+%26+Places)                                                                                                   |
-| **Living Atlas**        | [Current](https://www.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7)                                                                                      |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | The PLACES Project replaces the 500 Cities Project and provides model-based population-level analysis and community estimates for the entire US at several spatial scales |
+| **Time Frame** | Year; 2019 to 2025 |
+| **Spatial Scale** | Counties, Places, ZCTAs, and Census Tracts |
+| **Format** | Tables and Shapefiles |
+| **Source** | Centers for Disease Control and Prevention (CDC) |
+| **Original Repository** | [All Years](https://data.cdc.gov/browse?category=500+Cities+%26+Places) |
+| **Living Atlas** | [Current](https://www.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7) |
 
 : {tbl-colwidths="\[20,80\]"}
 

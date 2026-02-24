@@ -1,7 +1,7 @@
 ## Multidimensional Deprivation Index (MDI)
 
 |  |  |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | **Description** | "The Multidimensional Deprivation Index (MDI) is a new research measure intended to complement, not replace, the Official Poverty Measure or Supplemental Poverty Measure. The MDI has six dimensions: standard of living, education, health, economic security, housing quality, and neighborhood quality. This report presents estimates of poverty using the official definition of poverty and estimates of deprivation using the MDI based on information collected primarily in the American Community Survey." |
 | **Time Frame** | Mixed; 2010 to 2019; 2017 |
 | **Spatial Scale** | State and County |

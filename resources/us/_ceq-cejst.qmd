@@ -1,14 +1,14 @@
 ## Climate & Economic Justice Screening Tool (CEJST)
 
-|                         |                                                                                                                                                                                                                   |
-|-----------------|-------------------------------------------------------|
-| **Description**         | Identifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness. |
-| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                                                                                 |
-| **Spatial Scale**       | Census Tract                                                                                                                                                                                                      |
-| **Format**              | CSV and Shapefile                                                                                                                                                                                                 |
-| **Source**              | Council on Environmental Quality (CEQ)                                                                                                                                                                            |
-| **Original Repository** | [Original Website](https://screeningtool.geoplatform.gov/en/methodology) Backup: [v2.0](https://edgi-govdata-archiving.github.io/j40-cejst-2/en/downloads)                                                        |
-| **Living Atlas**        | [v1.0 Justice 40 Tracts](https://www.arcgis.com/home/item.html?id=f95344889cab44bd84207052f44cb940)                                                                                                               |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | Identifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness. |
+| **Time Frame** | Updated on Unknown Basis; Current |
+| **Spatial Scale** | Census Tract |
+| **Format** | CSV and Shapefile |
+| **Source** | Council on Environmental Quality (CEQ) |
+| **Original Repository** | [Original Website](https://screeningtool.geoplatform.gov/en/methodology) Backup: [v2.0](https://public-environmental-data-partners.github.io/j40-cejst-2/en/#3/33.47/-97.5) |
+| **Living Atlas** | [v1.0 Justice 40 Tracts](https://www.arcgis.com/home/item.html?id=f95344889cab44bd84207052f44cb940) |
 
 : {tbl-colwidths="\[20,80\]"}
 

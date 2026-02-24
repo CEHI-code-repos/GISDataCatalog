@@ -1,14 +1,14 @@
 ## Mapping Medicare Disparities
 
-|                         |                                                                                                |
-|-----------------|-------------------------------------------------------|
-| **Description**         | Health outcomes measures to map Medicare disparities                                           |
-| **Time Frame**          | Updated on Unknown Basis; Current                                                              |
-| **Spatial Scale**       | State/Territory, County, Tract (depending on measure)                                          |
-| **Format**              | CSV                                                                                            |
-| **Source**              | Center of Medicare & Medicaid Services                                                         |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | Health outcomes measures to map Medicare disparities |
+| **Time Frame** | Updated on Unknown Basis; Current |
+| **Spatial Scale** | State/Territory, County, Tract (depending on measure) |
+| **Format** | CSV |
+| **Source** | Center of Medicare & Medicaid Services |
 | **Original Repository** | [Current](https://data.cms.gov/tools/mapping-medicare-disparities-by-population) (date listed) |
-| **Living Atlas**        | N/A                                                                                            |
+| **Living Atlas** | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 

@@ -1,14 +1,14 @@
 ## American Community Survey (ACS) 5-year Estimates
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                              |
-|----------------|--------------------------------------------------------|
-| **Description**         | "The [American Community Survey](https://www.census.gov/programs-surveys/acs/about.html) (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than \$675 billion in federal and state funds are distributed each year.” (U.S Census Bureau) |
-| **Time Frame**          | 5 Years; 2009 to 2022                                                                                                                                                                                                                                                                                                                                                        |
-| **Spatial Scale**       | Nation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group                                                                                                                                                                                                                                         |
-| **Format**              | Feature Layers                                                                                                                                                                                                                                                                                                                                                               |
-| **Source**              | US Census Bureau                                                                                                                                                                                                                                                                                                                                                             |
-| **Original Repository** | [All Years](https://data.census.gov/)                                                                                                                                                                                                                                                                                                                                        |
-| **Living Atlas**        | [Current](https://www.arcgis.com/home/group.html?id=16b3a5ac36834ed6b3f16261d9a988ea#overview)                                                                                                                                                                                                                                                                               |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | "The [American Community Survey](https://www.census.gov/programs-surveys/acs/about.html) (ACS) is an ongoing survey that provides vital information on a yearly basis about our nation and its people. Information from the survey generates data that help determine how more than \$675 billion in federal and state funds are distributed each year.” (U.S Census Bureau) |
+| **Time Frame** | 5 Years; 2009 to 2024 |
+| **Spatial Scale** | Nation, State (including DC and Puerto Rico), Metropolitan Area, Congressional District, County, Place, Census Tract and Block Group |
+| **Format** | Feature Layers |
+| **Source** | US Census Bureau |
+| **Original Repository** | [All Years](https://data.census.gov/) |
+| **Living Atlas** | [Current](https://www.arcgis.com/home/group.html?id=16b3a5ac36834ed6b3f16261d9a988ea#overview) |
 
 : {tbl-colwidths="\[20,80\]"}
 

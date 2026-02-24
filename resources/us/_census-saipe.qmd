@@ -1,14 +1,14 @@
 ## Small Area Income and Poverty Estimates (SAIPE) Program
 
-|                         |                                                                                                                              |
-|----------------|--------------------------------------------------------|
-| **Description**         | Offers yearly estimates of income and poverty information for every school district, country and state in the United States. |
-| **Time Frame**          | Year; 1989 to 2023                                                                                                           |
-| **Spatial Scale**       | State, County, and School District                                                                                           |
-| **Format**              | Tables                                                                                                                       |
-| **Source**              | U.S. Census Bureau                                                                                                           |
-| **Original Repository** | [All Years](https://www.census.gov/programs-surveys/saipe/data/datasets.All.List_1743592724.html#list-tab-List_1743592724)   |
-| **Living Atlas**        | N/A                                                                                                                          |
+|  |  |
+|------------------|------------------------------------------------------|
+| **Description** | Offers yearly estimates of income and poverty information for every school district, country and state in the United States. |
+| **Time Frame** | Year; 1989 to 2023 |
+| **Spatial Scale** | State, County, and School District |
+| **Format** | Tables |
+| **Source** | U.S. Census Bureau |
+| **Original Repository** | [All Years](https://www.census.gov/programs-surveys/saipe/data/datasets.All.List_1743592724.html#list-tab-List_1743592724) |
+| **Living Atlas** | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 

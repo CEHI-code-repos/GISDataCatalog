@@ -8,7 +8,7 @@
 | **Format**              | Feature Service                                                                      |
 | **Source**              | Indian Health Service (IHS)                                                          |
 | **Original Repository** | [Current](https://www.ihs.gov/locations/)                                            |
-| **Living Atlas**        | [Current](https://www.arcgis.com/home/item.html?id=f54bca11a622446c9472e962fdaf2bea) |
+| **Living Atlas**        | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 

@@ -1,14 +1,14 @@
 ## Shortage Areas (HPSAs and MUA/Ps)
 
-|                         |                                                                                                                                                      |
-|---------------|---------------------------------------------------------|
-| **Description**         | Facility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps). |
-| **Time Frame**          | Updated on Unknown Basis; Current                                                                                                                    |
-| **Spatial Scale**       | Mixed (Point, Tract, County Subdivision, County)                                                                                                     |
-| **Format**              | Shapefile and Feature Service                                                                                                                        |
-| **Source**              | Health Resources & Services Administration                                                                                                           |
-| **Original Repository** | [Current](https://data.hrsa.gov/data/download#heading12)                                                                                             |
-| **Living Atlas**        | N/A                                                                                                                                                  |
+|  |  |
+|-----------------|-------------------------------------------------------|
+| **Description** | Facility, population, and geographic boundaries for Health Professional Shortage Areas (HPSAs) and Medically Underserved Areas/Populations (MUA/Ps). |
+| **Time Frame** | Updated Daily; Current |
+| **Spatial Scale** | Mixed (Point, Tract, County Subdivision, County) |
+| **Format** | Shapefile and Feature Service |
+| **Source** | Health Resources & Services Administration |
+| **Original Repository** | [Current](https://data.hrsa.gov/data/download#heading12) |
+| **Living Atlas** | N/A |
 
 : {tbl-colwidths="\[20,80\]"}
 
