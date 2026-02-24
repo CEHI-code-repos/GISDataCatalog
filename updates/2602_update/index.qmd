@@ -1,0 +1,14 @@
+---
+title: "New National Dataset Added + Updated prior datasets"
+author: "Ryan Zomorrodi"
+date: "2026-02-24"
+categories: [News]
+---
+
+Our list of National GIS Data has a new addition: the Grocery Gap Atlas! It may be interesting to any of you who would like to look at access to food and corporate concentration of grocery markets.
+
+All prior datasets have been updated with new years of data, if applicable.
+
+If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
+
+Best, The CEHI Training Team
