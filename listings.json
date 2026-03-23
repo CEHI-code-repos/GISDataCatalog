@@ -2,12 +2,42 @@
   {
     "listing": "/updates/index.html",
     "items": [
+      "/updates/2603_update/index.html",
       "/updates/2602_update/index.html",
       "/updates/2505_update/index.html",
       "/updates/2503_update/index.html",
       "/updates/2502_update/index.html",
       "/updates/2407_update/index.html",
       "/updates/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/resources/us/cdc-500-cities.html",
+      "/resources/us/census-acs5.html",
+      "/resources/us/cms-facilities.html",
+      "/resources/us/ceq-cejst.html",
+      "/resources/us/uw-chr.html",
+      "/resources/us/usda-ers-ctc.html",
+      "/resources/us/cdc-hdsm.html",
+      "/resources/us/cdc-eji.html",
+      "/resources/us/hrsa-forhp.html",
+      "/resources/us/hrsa-fqhc.html",
+      "/resources/us/rafi_gga.html",
+      "/resources/us/ihs-facilities.html",
+      "/resources/us/cms-mmd.html",
+      "/resources/us/census-mdi.html",
+      "/resources/us/cdc-places.html",
+      "/resources/us/aers-ruca.html",
+      "/resources/us/usda-rucc.html",
+      "/resources/us/hrsa-sa.html",
+      "/resources/us/census-sahie.html",
+      "/resources/us/census-saipe.html",
+      "/resources/us/cdc-svi.html",
+      "/resources/us/census-tribtract.html",
+      "/resources/us/usda-uic.html",
+      "/resources/us/nchs-urcs.html"
     ]
   }
 ]

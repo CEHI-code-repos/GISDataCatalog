@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ryan Zomorrodi">
-<meta name="dcterms.date" content="2025-03-07">
 
-<title>New State-Specific Resources – Data Catalog</title>
+<title>data_listing.ejs – Data Catalog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -84,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -133,53 +131,88 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">New State-Specific Resources</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">News</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Ryan Zomorrodi </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 7, 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-
-<p>We have added state specific resources for Alaska, California, Nebraska, New Jersey, Virginia, and Vermont for some Hawaii-specific data resources.</p>
-<p>If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi (<a href="mailto:rzomor2@uic.edu">rzomor2@uic.edu</a>).</p>
-<p>Best, The CEHI Training Team</p>
+<div class="list grid quarto-listing-cols-1">
+<p>&lt;% for (const item of items) { %&gt;</p>
+<div class="g-col-1" <%="metadataAttrs(item)" %="">&gt;
+<a href="<%- item.path %>" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+&lt;%= item.title %&gt;
+</h5>
+<p>&lt;% if (item.categories) { %&gt;</p>
+<div class="listing-categories">
+&lt;% for (const category of item.categories) { %&gt;
+<div class="listing-category" onclick="window.quartoListingCategory('<%= utils.b64encode(category ) %>'); return false;">&lt;%= category %&gt;</div>
+&lt;% } %&gt;
+</div>
+<p>&lt;% } %&gt;</p>
+<table class="card-other-values">
+  <tbody>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Description:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_description %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Time Frame:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_time_frame %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Spatial Scale:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_spatial_scale %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Format:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_format %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Source:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_source %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Original Repository:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_orig_repo %&gt;
+</td>
+    </tr>
+    <tr>
+      <td style="width: 30%; font-weight: bold; vertical-align: top;">Living Atlas:</td>
+<td style="width: 70%; vertical-align: top;">
+&lt;%= item.data_living_atlas %&gt;
+</td>
+    </tr>
+  </tbody>
+</table>
+<div class="card-text listing-description delink">
+<p>&lt;%= item.data_details %&gt;</p>
+</div>
+</div>
+</div></a>
+</div>
+<p>&lt;% } %&gt;</p>
+</div>
 
 
 
