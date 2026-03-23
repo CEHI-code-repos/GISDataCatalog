@@ -1,0 +1,33 @@
+---
+title: "County Typology Codes"
+categories:
+  - Rurality
+data_description: 'The US Department of Agriculture Economic Research Service "County Typology Codes contains a set of Economic Typology codes based on the industrial composition of nonmetropolitan (nonmetro) counties and a set of Demographic Typology Codes based on demographic characteristics of interest to rural policymakers and researchers."'
+data_time_frame: "Year; 1979, 1986, 1989, 2004, 2015, 2025"
+data_spatial_scale: "County"
+data_format: "CSV and XLXS"
+data_source: "US Department of Agriculture (USDA)"
+data_orig_repo: "[All Years](https://www.ers.usda.gov/data-products/county-typology-codes)"
+data_living_atlas: "N/A"
+data_details: |
+  Economic Typology Code designations include:
+
+  -   High Farming
+  -   High Mining
+  -   High Manufacturing
+  -   High Government
+  -   Nonspecialized
+  -   Industry Dependence
+
+  Demographic Typology Code designations include:
+
+  -   Low Post-SecondaryEducation
+  -   Low Employment
+  -   Population Loss
+  -   Housing Stress
+  -   Retirement Destination
+  -   Persistent Poverty
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

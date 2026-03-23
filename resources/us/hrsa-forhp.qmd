@@ -1,0 +1,24 @@
+---
+title: "Federal Office of Rural Health Policy Rural Designation"
+categories:
+  - Rurality
+data_description: "The Federal Office of Rural Health Policy Rural Designation combines Rural-Urban Commuting Area (RUCA) codes and the Road Ruggedness Scale (RRS) to create a binary rural classification."
+data_time_frame: "Year; 2025"
+data_spatial_scale: "County, Census Tract, and ZIP Code approximations"
+data_format: "Excel"
+data_source: "Health Resources & Services Administration (HRSA)"
+data_orig_repo: "[2025](https://www.hrsa.gov/rural-health/about-us/what-is-rural/data-files)"
+data_living_atlas: "N/A"
+data_details: |
+  HRSA defines rural as the following:
+
+  - Non-metropolitan counties
+  - Outlying metropolitan counties with no population from an urban area of 50,000 or more people
+  - Census tracts with RUCA codes 4-10 in metropolitan counties
+  - Census tracts of at least 400 square miles in area with population density of 35 or fewer people per square mile with RUCA codes 2-3 in metropolitan counties
+  - Census tracts with RRS 5 and RUCA codes 2-3 that are at least 20 square miles in area in metropolitan counties
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

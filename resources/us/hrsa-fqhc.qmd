@@ -1,0 +1,17 @@
+---
+title: "Federally Qualified Health Center Service Delivery and Look-Alike Sites"
+categories:
+  - Facilities
+data_description: "List of federally-funded health centers that provide health services."
+data_time_frame: "Updated Daily; Current"
+data_spatial_scale: "Point"
+data_format: "CSV with Address and X/Y"
+data_source: "Health Resources & Services Administration (HRSA)"
+data_orig_repo: "[Current](https://data.hrsa.gov/data/download)"
+data_living_atlas: "N/A"
+data_details: |
+  Health centers are community-based and consumer-run organizations that serve populations with limited access to health care. These include low-income populations, the uninsured, those with limited English proficiency, migratory and seasonal agricultural workers, individuals and families experiencing homelessness, and those living in public housing.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

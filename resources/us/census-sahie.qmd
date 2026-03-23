@@ -1,0 +1,19 @@
+---
+title: "Small Area Health Insurance Estimate (SAHIE) Program"
+categories:
+  - Census
+  - "Risk Factors"
+data_description: "Offers estimates of health insurance coverage in countries and states throughout the United States. It aids in the identification of locations with large uninsured populations, as well as policy-making and resource allocation."
+data_time_frame: "Mixed; 2000, 2001, 2005 to 2007, 2008 to 2023"
+data_spatial_scale: "State and County"
+data_format: "CSV and Shapefile"
+data_source: "US Census Bureau"
+data_orig_repo: "[All Years](https://www.census.gov/programs-surveys/sahie/data/datasets.html)"
+data_living_atlas: "N/A"
+data_details: |
+  SAHIE estimates are available for several demographic groups. These estimates aid in identifying regions with a significant number of individuals without health insurance coverage.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

@@ -1,0 +1,18 @@
+---
+title: "Rural-Urban Commuting Area (RUCA)"
+categories:
+  - Rurality
+data_description: "The rural-urban commuting area (RUCA) codes classify US census tracts using measures of population density, urbanization, and daily commuting. Also approximated at ZIP code level."
+data_time_frame: "Year; 1990, 2000, 2010, and 2020"
+data_spatial_scale: "County level representation of counties that are defined as PRCDAs/CHSDA"
+data_format: "CSV with GEOIDs"
+data_source: "US Department of Agriculture (USDA) Economic Research Service"
+data_orig_repo: "[All Years](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/)"
+data_living_atlas: "N/A"
+data_details: |
+  The classification contains two levels. Whole numbers (1-10) delineate metropolitan, micropolitan, small town, and rural commuting areas based on the size and direction of the primary (largest) commuting flows. These 10 codes are further subdivided based on secondary commuting flows, providing flexibility in combining levels to meet varying definitional needs and preferences.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

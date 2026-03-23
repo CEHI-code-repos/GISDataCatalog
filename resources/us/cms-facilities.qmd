@@ -1,0 +1,19 @@
+---
+title: "CMS Approved Facilities - FQHC, RHC, CAH"
+categories:
+ - Facilities
+data_description: "This service provides information on Center of Medicare & Medicaid Services (CMS) approved facilities such as federally qualified health centers (FQHCs), rural health clinics, critical access hospitals and nursing facilities."
+data_time_frame: "Updated on Unknown Basis; Current"
+data_spatial_scale: "Point"
+data_format: "Feature Service"
+data_source: "Health Resources & Services Administration (HRSA)"
+data_orig_repo: "[Current](https://gisportal.hrsa.gov/server/rest/services/HealthCareFacilities/CMSApprovedFacilities_FS/MapServer) ([Additional Information](https://data.hrsa.gov/maps/services))"
+data_living_atlas: "N/A"
+data_details: |
+  This is the “[Provider of Service](https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities/data)” extract from the Quality Improvement Evaluation System (QIES) database maintained by the Centers for Medicare & Medicaid Services (CMS). These data include provider number, name, and address and characterize the participating institutional provider (including hospitals, skilled nursing facilities, home health agencies, and other types of facilities).
+
+  Add to an ArcGIS Project by using “Data from Path” and paste the above URL as the server to use. Export using Feature Class to Feature Class.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

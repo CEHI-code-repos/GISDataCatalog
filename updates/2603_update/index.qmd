@@ -1,0 +1,13 @@
+---
+title: "New Rurality Datasets + Website Remodeling"
+author: "Ryan Zomorrodi"
+date: "2026-03-23"
+categories: [News]
+---
+
+We have added 4 new rurality dataset to the website: Rural-Urban Continuum Codes (RUCC), Urban Influence Codes (UIC), Urban-Rural Classification Scheme, and Federal Office of Rural Health Policy Rural Designation.
+
+In addition, we have introduced categories to the website, which allow you to filter datasets by overarching topics. State-wide datasets were also removed.
+
+Best, The CEHI Training Team
+

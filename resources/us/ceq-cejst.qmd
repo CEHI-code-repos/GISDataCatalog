@@ -1,0 +1,28 @@
+---
+title: "Climate & Economic Justice Screening Tool (CEJST)"
+categories:
+  - Environment
+data_description: "Identifies communities that experience disadvantages due to a combination of environmental and socioeconomic factors. It assists federal agencies in distributing money to improve climate and economic fairness."
+data_time_frame: "Updated on Unknown Basis; Current"
+data_spatial_scale: "Census Tract"
+data_format: "CSV and Shapefile"
+data_source: "Council on Environmental Quality (CEQ)"
+data_orig_repo: "[Original Website](https://screeningtool.geoplatform.gov/en/methodology) Backup: [v2.0](https://public-environmental-data-partners.github.io/j40-cejst-2/en/#3/33.47/-97.5)"
+data_living_atlas: "[v1.0 Justice 40 Tracts](https://www.arcgis.com/home/item.html?id=f95344889cab44bd84207052f44cb940)"
+data_details: |
+  This dataset focuses on highlighting tracts that are disadvantaged with respect to climate and economic justice. It contains over 100 different measures of burden in addition to aggregate indicators of burden. Burden is organized into the following categories:
+
+  -   Climate Change  
+  -   Energy  
+  -   Health  
+  -   Housing  
+  -   Legacy Pollution  
+  -   Transportation  
+  -   Water and wastewater  
+  -   Workforce development
+
+  Note: This resource has been since taken down. An archive of the original website along with version two is being hosted by the Environmental Data and Governance Initiative.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

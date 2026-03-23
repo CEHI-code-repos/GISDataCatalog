@@ -1,0 +1,18 @@
+---
+title: "Rural-Urban Continuum Codes (RUCC)"
+categories:
+  - "Rurality"
+data_description: "The rural-urban continuum codes (RUCC) classify US counties by their degree of urbanization and adjacency to a metro area."
+data_time_frame: "Year; 1974, 1983, 1993, 2003, 2013, and 2023"
+data_spatial_scale: "County"
+data_format: "CSV and Excel"
+data_source: "US Department of Agriculture (USDA) Economic Research Service"
+data_orig_repo: "[All Years](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes)"
+data_living_atlas: "N/A"
+data_details: |
+  The designation of counties as metro or nonmetro is based on the Office of Management and Budget. These metro and nonmetro designations are further subdivided in is further subdivided into three metro and six nonmetro categories.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

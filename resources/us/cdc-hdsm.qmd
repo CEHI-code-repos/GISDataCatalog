@@ -1,0 +1,25 @@
+---
+title: "Division for Heart Disease and Stroke Prevention - Heart Disease and Stroke Mortality"
+categories:
+ - "Health Outcomes"
+data_description: "Heart Disease and Stoke Mortality"
+data_time_frame: "Three year average from 2005-2007 to 2021-2023"
+data_spatial_scale: "States, Counties"
+data_format: "Tables"
+data_source: "Centers for Disease Control and Prevention (CDC) Division for Heart Disease and Stroke Prevention"
+data_orig_repo: "[Interactive Data Atlas](https://nccd.cdc.gov/DHDSPAtlas/Default.aspx)"
+data_living_atlas: "[All Years](https://www.arcgis.com/home/search.html?restrict=false&sortField=relevance&sortOrder=desc&searchTerm=owner%3A%22data_cdc_dhdsp%22#content)"
+data_details: |
+  Offers Heart Disease and Stroke mortality data obtained from the National Vital Statistics System. Data can be stratified by various demographic groups. The Interactive Atlas of Heart Disease and Stroke offers a way to visualize, export, and generate reports from heart disease and stroke mortality data, as well as data regarding...
+
+  -   Prevalence
+  -   Risk Factors
+  -   Social, Economic, Environmental variables
+  -   Demographics
+  -   Health Care Delivery and Insurance
+  -   Health Care Costs
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

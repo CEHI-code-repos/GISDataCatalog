@@ -1,0 +1,21 @@
+---
+title: "Urban Influence Codes (UIC)"
+categories:
+  - "Rurality"
+data_description: "The Urban Influence Codes (UIC) classify US counties by the size of their neighboring metropolitan areas and micropolitan status to identify the hierarchical economic influence and opportunities provided by nearby urban centers."
+data_time_frame: "Year; 1993, 2003, 2013, and 2024"
+data_spatial_scale: "County"
+data_format: "CSV and Excel"
+data_source: "US Department of Agriculture (USDA) Economic Research Service"
+data_orig_repo: "[All Years](https://www.ers.usda.gov/data-products/urban-influence-codes)"
+data_living_atlas: "N/A"
+data_details: |
+  The Urban Influence Codes (UIC) focuses on how a county’s economic opportunities are shaped by its proximity to large metropolitan areas. While other systems might just look at how many people live in a county, the UIC looks outward to see if that county "influenced".
+  
+  The system breaks all US counties into nine distinct categories based on their size and whether they are physically adjacent to a metro area. It separates counties into Metropolitan, Micropolitan (at least 10,000 people), and Noncore (the most rural areas).
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+
+
