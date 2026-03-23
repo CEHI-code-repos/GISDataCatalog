@@ -1,0 +1,21 @@
+---
+title: "Mapping Medicare Disparities"
+categories:
+  - "Health Outcomes"
+data_description: "Health outcomes measures to map Medicare disparities"
+data_time_frame: "Updated on Unknown Basis; Current"
+data_spatial_scale: "State/Territory, County, Tract (depending on measure)"
+data_format: "CSV"
+data_source: "Center of Medicare & Medicaid Services"
+data_orig_repo: "[Current](https://data.cms.gov/tools/mapping-medicare-disparities-by-population) (date listed)"
+data_living_atlas: "N/A"
+data_details: |
+  Composed of multiple tools which display disparities through three views:
+
+  -   Population - "The MMD interactive tool contains health outcome measures for disease prevalence, costs, hospitalization for 60 specific chronic conditions, emergency department utilization, readmissions rates, mortality, preventable hospitalizations, and preventive services."
+  -   Hospital - "The MMD interactive map hospital tool identifies area of disparities between hospital quality and cost of care. It allows for a way to compare measures at the hospital, county, state, territory, and national levels"
+  -   Social Determinants of Health - "This addition to the MMD tool identifies areas of disparities by key Social Determinant of Health (SDOH) domains and measures"
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

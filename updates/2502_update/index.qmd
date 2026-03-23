@@ -7,7 +7,7 @@ categories: [News]
 
 We've recently updated all our the datasets.
 
-We also have a new addition! Check out the [Hawaii tab](../../states/hawaii.qmd) for some Hawaii-specific data resources.
+We also have a new addition! Check out the Hawaii tab for some Hawaii-specific data resources.
 
 If you have any suggestions or notice any updates that need to be made, please feel free to contact Ryan Zomorrodi ([rzomor2\@uic.edu](mailto:rzomor2@uic.edu)).
 

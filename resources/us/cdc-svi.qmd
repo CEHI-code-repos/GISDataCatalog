@@ -1,0 +1,24 @@
+---
+title: "Social Vulnerability Index (SVI)"
+categories:
+  - "Risk Factors"
+data_description: "The [Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html) uses 15 US census variables to help local officials identify communities that may need support before, during, or after disasters."
+data_time_frame: "Year; 2000, 2010, 2014, 2016, 2018, 2020, 2022"
+data_spatial_scale: "County and Census Tract"
+data_format: "CSV and Geodatabase"
+data_source: "Centers for Disease Control and Prevention (CDC)"
+data_orig_repo: "[All Years](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)"
+data_living_atlas: "[2018](https://www.arcgis.com/home/item.html?id=cbd68d9887574a10bc89ea4efe2b8087) [2020](https://www.arcgis.com/home/item.html?id=05709059044243ae9b42f469f0e06642) [2022](https://www.arcgis.com/home/item.html?id=414c0b43a0ec4adc829d5815bc621750)"
+data_details: |
+  Ranking by social vulnerability. Can look at rank within a state or within the entire US. A composite measure based on four dimensions:
+
+  -   Housing Type and Transportation
+  -   Household Composition and Disability
+  -   Socioeconomic Status
+  -   Minority Status and Language
+
+  Can also map by individual dimension.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---

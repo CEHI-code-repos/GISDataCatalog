@@ -3,27 +3,9 @@ project:
 
 website:
   title: "Data Catalog"
-  favicon: logo.png
+  favicon: assets/logo.png
   navbar:
     right:
-      - text: State-Specific Resources
-        menu: 
-          - text: Alaska
-            href: states/alaska.qmd
-          - text: California
-            href: states/california.qmd
-          - text: Hawaii
-            href: states/hawaii.qmd
-          - text: Nebraska
-            href: states/nebraska.qmd
-          - text: New Jersey
-            href: states/new_jersey.qmd
-          - text: Vermont
-            href: states/vermont.qmd
-          - text: Virginia
-            href: states/virginia.qmd
-      - text: Favorites
-        href: five_favorites.qmd
       - updates/index.qmd
       - about.qmd
     tools:
@@ -34,7 +16,10 @@ website:
           - text: Report an Issue
             href: https://github.com/CEHI-code-repos/GISDataCatalog/issues
 
-format: html
-
-
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
 

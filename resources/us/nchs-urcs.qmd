@@ -1,0 +1,23 @@
+---
+title: "Urban-Rural Classification Scheme"
+categories:
+  - "Rurality"
+data_description: 'The NCHS Urban-Rural Classification Scheme is a six-level categorization system used to analyze health differences across US counties based on their level of urbanization.'
+data_time_frame: "Year; 1990, 2006, 2013, and 2023"
+data_spatial_scale: "County"
+data_format: "Excel and SAS"
+data_source: "Centers for Disease Control & Prevention (CDC) National Center for Health Statistics (NCHS)"
+data_orig_repo: "[All Years](https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html)"
+data_living_atlas: "N/A"
+data_details: |
+  The classification scheme assignes every US county to one of six distinct categories, allowing for the identification and tracking of health disparities that may vary significantly between metropolitan hubs and rural towns.
+  
+  The scheme is divided into two primary sections based on Office of Management and Budget (OMB) designations:
+
+  - Metropolitan Counties: These are split into four levels: Large Central, Large Fringe (suburban), Medium, and Small.
+  - Nonmetropolitan Counties: These are split into two levels: Micropolitan (centered around a smaller city) and Noncore (rural areas).
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

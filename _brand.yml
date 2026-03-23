@@ -10,7 +10,7 @@ color:
   info: cehi-blue
 
 logo: 
-  medium: logo.png
+  medium: assets/logo.png
 
 typography:
   fonts:

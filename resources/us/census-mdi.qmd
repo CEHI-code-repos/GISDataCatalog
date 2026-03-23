@@ -1,0 +1,28 @@
+---
+title: "Multidimensional Deprivation Index (MDI)"
+categories:
+  - Census
+  - "Risk Factors"
+data_description: '"The Multidimensional Deprivation Index (MDI) is a new research measure intended to complement, not replace, the Official Poverty Measure or Supplemental Poverty Measure. The MDI has six dimensions: standard of living, education, health, economic security, housing quality, and neighborhood quality. This report presents estimates of poverty using the official definition of poverty and estimates of deprivation using the MDI based on information collected primarily in the American Community Survey."'
+data_time_frame: "Mixed; 2010 to 2019; 2017"
+data_spatial_scale: "State and County"
+data_format: "Shapefile"
+data_source: "US Census Bureau"
+data_orig_repo: "[2010 to 2019](https://www.census.gov/topics/income-poverty/poverty/about/related-sites/rates.html) [2017](https://www.census.gov/library/publications/2019/acs/acs-40.html)"
+data_living_atlas: "N/A"
+data_details: |
+  MDI value is equal to the percent of households in that region that qualify as “deprived.” Can be treated as an exposure value. A composite measure based on six dimensions:
+
+  -   Neighborhood Quality
+  -   Standard of Living
+  -   Education
+  -   Health
+  -   Economic Security
+  -   Housing Quality
+
+  Cannot map by individual dimension.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
+

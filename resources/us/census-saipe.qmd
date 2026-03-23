@@ -1,0 +1,25 @@
+---
+title: "Small Area Income and Poverty Estimates (SAIPE) Program"
+categories:
+  - Census
+  - "Risk Factors"
+data_description: "Offers yearly estimates of income and poverty information for every school district, country and state in the United States."
+data_time_frame: "Year; 1989 to 2023"
+data_spatial_scale: "State, County, and School District"
+data_format: "Tables"
+data_source: "US Census Bureau"
+data_orig_repo: "[All Years](https://www.census.gov/programs-surveys/saipe/data/datasets.All.List_1743592724.html#list-tab-List_1743592724)"
+data_living_atlas: "N/A"
+data_details: |
+  This research presents yearly estimates of income and poverty data, encompassing: 
+
+  -   Total number of people in poverty
+  -   Number of children under age 18 in poverty
+  -   Number of related children ages 5 to 17 in families in poverty 
+  -   Median household income
+
+  Produced for every school district, county, and state, these figures help pinpoint locations with high poverty rates, which in turn informs policy choices and the creation of targeted solutions.
+format:
+  html:
+    template: ../../assets/data_catalog/data_template.html
+---
